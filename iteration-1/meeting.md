@@ -12,3 +12,15 @@
   - commit message，格式见[Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
   - 每个人需新建一个自己的分支再进行开发，最后再merge
   - Javadoc需要标注到类、方法这一粒度
+
+# 3.6 meeting
+
+会议时间：10:30pm-11:00pm
+
+会议地点：腾讯会议
+
+会议内容：
+
+1. 首先丁宇辰统计了已经做的工作，并根据迭代一的要求文档调整了工作内容，增加了项目启动文档
+2. 凌毓辰对项目启动文档的组成提出了建议，同时沈霁昀和马宇森做出了补充，明确了大概的框架和内容
+3. 丁宇辰总结了需求，分配工作，并对已经做好的工作进行merge
