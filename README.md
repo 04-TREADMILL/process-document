@@ -8,6 +8,7 @@
 - `iteration-2`：第二轮迭代的代码和文档
   - `division.md`：第二轮迭代中小组成员分工情况的文档
   - `meeting.md`：第二轮迭代中会议记录的文档
+  - `NoteOfSentiSE.md`：阅读SentiStrength-SE相关论文笔记
   - `助教数据分析`：第二轮迭代中用到的助教提供的数据集
     - `社交文本-bbc1000.csv`：BBC 新闻网站的社交文本数据
     - `社交文本-myspace1041.csv`：MySpace 社交网络上的文本数据
