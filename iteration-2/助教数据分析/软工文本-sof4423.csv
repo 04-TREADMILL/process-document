@@ -1,4 +1,4 @@
-id,text,label_true,label_pred
+id,text,label_pred
 0,has an,0
 1,Good luck!,1
 2,Shoulld be:,0
