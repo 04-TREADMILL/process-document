@@ -1,15 +1,15 @@
-### SentiStrength 运行结果分析报告
+# SentiStrength 运行结果分析报告
 
-**运行情况**
+### 运行情况
 
 针对软工文本的 sof4423 数据集、appreview 数据集，社交文本的 myspace1041 数据集、bbc1000 数据集，我们运行了 sentistrength 代码，对每条文本项给出三分类预测结果：1(积极)、0(中性)、-1(消极) ，并将其与原数据集中的人工标注结果进行比对。
 
-**数据处理**
+### 数据处理
 
 以人工标注结果为标准答案作为参照，分别计算了混淆矩阵、准确率、精度、召回率和 F1分数，并画出了对应的 ROC 曲线。具体结果如下：
 
 ```json
-//------------------------ myspace1041 ----------------------
+/*------------------------- myspace -------------------------*/
 confusion_mat: {
 	pos_real: {'pos_pred': 606, 'neg_pred': 65, 'neu_pred': 31},
 	neg_real: {'pos_pred': 42, 'neg_pred': 70, 'neu_pred': 20},
@@ -19,7 +19,7 @@ precision:	{'pos': 0.81233, 'neg': 0.38043, 'neu': 0.54054}
 recall:		{'pos': 0.86325, 'neg': 0.5303, 'neu': 0.28986}
 f1_score:	{'pos': 0.83702, 'neg': 0.44303, 'neu': 0.37736}
 
-//-------------------------- bbc1000 ------------------------
+/*--------------------------- bbc ---------------------------*/
 confusion_mat: {
 	pos_real: {'pos_pred': 59, 'neg_pred': 23, 'neu_pred': 17},
 	neg_real: {'pos_pred': 78, 'neg_pred': 524, 'neu_pred': 51},
@@ -29,7 +29,7 @@ precision:	{'pos': 0.32597, 'neg': 0.76833, 'neu': 0.50365}
 recall:		{'pos': 0.59596, 'neg': 0.80245, 'neu': 0.27823}
 f1_score:	{'pos': 0.42143, 'neg': 0.78502, 'neu': 0.35845}
 
-//-------------------------- sof4423 ------------------------
+/*--------------------------- sof ---------------------------*/
 confusion_mat: {
 	pos_real: {'pos_pred': 1410, 'neg_pred': 88, 'neu_pred': 29},
 	neg_real: {'pos_pred': 27, 'neg_pred': 1120, 'neu_pred': 55},
@@ -39,7 +39,7 @@ precision:	{'pos': 0.88903, 'neg': 0.66826, 'neu': 0.92765}
 recall:		{'pos': 0.92338, 'neg': 0.93178, 'neu': 0.63577}
 f1_score:	{'pos': 0.90588, 'neg': 0.77832, 'neu': 0.75446}
 
-//------------------------- appreview -----------------------
+/*----------------------- appreview ------------------------*/
 confusion_mat: {
 	pos_real: {'pos_pred': 163, 'neg_pred': 17, 'neu_pred': 6},
 	neg_real: {'pos_pred': 50, 'neg_pred': 66, 'neu_pred': 14},
@@ -54,25 +54,27 @@ f1_score:	{'pos': 0.78934, 'neg': 0.59193, 'neu': 0.04348}
 
 <center>
     <p>社交文本情绪预测结果分析</p>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230214715.webp" alt="image-20230328230214715" style="zoom:50%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230232383.webp" alt="image-20230328230232383" style="zoom:50%;" />
+    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230214715.webp" alt="image-20230328230214715" style="zoom:35%;" />
+    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230232383.webp" alt="image-20230328230232383" style="zoom:35%;" />
 </center>
+
 
 其中，左图对应数据集 myspace1041，右图对应数据集 bbc1000
 
 <center>
     <p>软工文本情绪预测结果分析</p>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230246642.webp" alt="image-20230328230246642" style="zoom:50%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230257928.webp" alt="image-20230328230257928" style="zoom:50%;" />
+    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230246642.webp" alt="image-20230328230246642" style="zoom:35%;" />
+    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230257928.webp" alt="image-20230328230257928" style="zoom:35%;" />
 </center>
+
 
 其中，左图对应数据集 sof4423，右图对应数据集 appreview
 
-**结果分析**
+### 结果分析
 
-由数据分析结果可以看出，sentistrength 在软工文本数据集 sof4423 上的预测效果最好，在社交文本数据集myspace1041 和 bbc1000 上效果其次，在软工文本数据集 appreview 上效果最不理想。sentistrength 的预测表现与文本类型为软工文本或社交文本没有必然联系。
+由数据分析结果可以看出，sentistrength 在软工文本数据集 sof4423 上的预测效果相对较好，在社交文本数据集myspace1041、bbc1000 上和软工文本数据集 appreview 上效果其次。sentistrength 在给定的数据集上的预测表现与文本类型为软工文本或社交文本没有显示出必然的联系。
 
-我们将 sentistrength 预测错误的文本项提取出来进行了人工分析，得到如下可能的出错原因：
+针对软工文本，我们将 sentistrength 预测错误的文本项提取出来进行了人工分析，得到如下可能的出错原因：
 
 - 模型本身的缺陷
 
@@ -94,9 +96,9 @@ f1_score:	{'pos': 0.78934, 'neg': 0.59193, 'neu': 0.04348}
     - 软工文本中，讨论技术时包含的样例代码片段不应当成为情绪预测的依据
     - 软工文本中，有许多单用程度副词或短语表示消极情绪的场景
 
-**概括总结**
+### 概括总结
 
-大多数情况下，社交文本中更多地使用表情符号和缩写，也存在更多的拼写错误，情感表达更为随意和非正式，理论上来说会对基于词汇表的模型在情绪预测中造成更多的干扰；软工文本中更多地使用专业术语和具体的功能描述，语言使用相对工整，情感表达更为理性和客观，但软工术语可能会包含特定语境下特殊的情感倾向。
+大多数情况下，社交文本中更多地使用表情符号和缩写，也存在更多或故意或无意的拼写错误，情感表达更为随意、非正式和符号化，理论上来说会对基于词汇表的模型在情绪预测中造成更多的干扰，需要针对不规范的文字表达进行特殊的处理；软工文本中更多地使用专业术语和具体的功能描述，语言使用相对工整规范，情感表达更为理性和客观，但软工术语可能会包含特定语境下特殊的情感倾向，需要针对其情感表达的特点进行特殊的处理。
 
 - 对于积极的情绪表达，社交文本更加直接和强烈，软工文本更加理性和克制
 - 对于消极的情绪表达，社交文本的表达形式更多样（辱骂、讽刺、抱怨等），软工文本更具软工特色（bug难以处理等）
