@@ -52,25 +52,11 @@ f1_score:	{'pos': 0.78934, 'neg': 0.59193, 'neu': 0.04348}
 
 其中，*pos* 表示 1(积极情绪)，*neg* 表示 -1(消极情绪)，*neu* 表示 0(中性情绪)
 
-<center>
-    <p>社交文本情绪预测结果分析</p>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230214715.webp" alt="image-20230328230214715" style="zoom:35%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230232383.webp" alt="image-20230328230232383" style="zoom:35%;" />
-    <br/>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330160325021.webp" alt="image-20230330160325021" style="zoom:35%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330160409963.webp" alt="image-20230330160409963" style="zoom:35%;" />
-</center>
+<img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330212141984.webp" alt="image-20230330212141984" style="zoom:50%;" />
 
 其中，左侧对应数据集 myspace1041，右侧对应数据集 bbc1000
 
-<center>
-    <p>软工文本情绪预测结果分析</p>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230246642.webp" alt="image-20230328230246642" style="zoom:35%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230328230257928.webp" alt="image-20230328230257928" style="zoom:35%;" />
-    <br/>
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330160512430.webp" alt="image-20230330160512430" style="zoom:35%;" />
-    <img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330160548098.webp" alt="image-20230330160548098" style="zoom:35%;" />
-</center>
+<img src="https://pictures-1312865652.cos.ap-nanjing.myqcloud.com/image-20230330211957990.webp" alt="image-20230330211957990" style="zoom:50%;" />
 
 其中，左侧对应数据集 sof4423，右侧对应数据集 appreview
 
