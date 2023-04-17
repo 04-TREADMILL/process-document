@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.9.3">
+<file name="C:\Users\70903\Study\NJUSE\2023_Spring\SEIII\senti-strength\checkstyle\..\src\main\java\nju\SEIII\EASIEST\sentistrength\ClassificationStatistics.java">
+<error line="6" column="9" severity="warning" message="Package name &apos;nju.SEIII.EASIEST.sentistrength&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" severity="warning" message="缺少摘要javadoc。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="9" severity="warning" message="多余的 &lt;p&gt; 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="10" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="11" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="12" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="13" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="14" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="15" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="16" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="17" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="18" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="19" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="20" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="21" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="22" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="23" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="24" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="25" severity="warning" message="&lt;p&gt; 标签前应有空行。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="25" severity="warning" message="&lt;p&gt; 标签应在第一个字符之前，紧邻后者，之间不允许有空格。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="25" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="29" column="5" severity="warning" message="&apos;ctor def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="5" severity="warning" message="&apos;ctor def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="47" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="40" column="63" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="40" column="79" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="41" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="16" severity="warning" message="Local variable name &apos;fMeanC&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="42" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="16" severity="warning" message="Local variable name &apos;fMeanP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="43" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="16" severity="warning" message="名称 &apos;fProdCP&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="43" column="16" severity="warning" message="Local variable name &apos;fProdCP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="44" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="16" severity="warning" message="名称 &apos;fSumCSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="44" column="16" severity="warning" message="Local variable name &apos;fSumCSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="45" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="16" severity="warning" message="名称 &apos;fSumPSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="45" column="16" severity="warning" message="Local variable name &apos;fSumPSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="46" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="47" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="51" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="55" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="57" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="61" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="71" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="71" column="44" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="71" column="60" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="71" column="76" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="72" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" column="16" severity="warning" message="Local variable name &apos;fMeanC&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="73" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="73" column="16" severity="warning" message="Local variable name &apos;fMeanP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="74" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="74" column="16" severity="warning" message="名称 &apos;fProdCP&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="74" column="16" severity="warning" message="Local variable name &apos;fProdCP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="75" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="75" column="16" severity="warning" message="名称 &apos;fSumCSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="75" column="16" severity="warning" message="Local variable name &apos;fSumCSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="76" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" column="16" severity="warning" message="名称 &apos;fSumPSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="76" column="16" severity="warning" message="Local variable name &apos;fSumPSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="77" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="77" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="78" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="79" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="80" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="82" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="83" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="85" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="86" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="87" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="88" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="89" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="91" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="92" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="102" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="102" column="60" severity="warning" message="Parameter name &apos;iTrinaryEstimate&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="102" column="84" severity="warning" message="Parameter name &apos;iTrinaryCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="103" column="58" severity="warning" message="Parameter name &apos;iDataCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="105" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="106" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="107" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="108" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="110" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="112" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="114" column="9" severity="warning" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="114" column="9" severity="warning" message="&apos;for lcurly&apos; 缩进了8个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="115" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为以下缩进之一：6, 8。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="115" column="96" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="118" column="13" severity="warning" message="第 13 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="118" column="13" severity="warning" message="&apos;if lcurly&apos; 缩进了12个缩进符，应为以下缩进之一：8, 10。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="119" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为以下缩进之一：10, 14。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="120" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为以下缩进之一：8, 10。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="121" column="17" severity="warning" message="&apos;else&apos; 子元素缩进了16个缩进符，应为以下缩进之一：8, 10, 12。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="121" column="69" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="122" severity="warning" message="本行字符数 106个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="122" column="106" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="124" column="13" severity="warning" message="&apos;else rcurly&apos; 缩进了12个缩进符，应为以下缩进之一：6, 8。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="125" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="127" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="139" column="5" severity="warning" message="所有重载的方法都应该相邻放置。在相同类型的重载方法之间放置非重载方法是违反的。最后一个重载方法在行 &apos;40&apos; 上。" source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="139" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="139" column="47" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="139" column="63" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="139" column="85" severity="warning" message="Parameter name &apos;bSelected&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="140" column="49" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="140" column="62" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="141" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="141" column="16" severity="warning" message="Local variable name &apos;fMeanC&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="142" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="142" column="16" severity="warning" message="Local variable name &apos;fMeanP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="143" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="143" column="16" severity="warning" message="名称 &apos;fProdCP&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="143" column="16" severity="warning" message="Local variable name &apos;fProdCP&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="144" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="144" column="16" severity="warning" message="名称 &apos;fSumCSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="144" column="16" severity="warning" message="Local variable name &apos;fSumCSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="145" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="145" column="16" severity="warning" message="名称 &apos;fSumPSq&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="145" column="16" severity="warning" message="Local variable name &apos;fSumPSq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="146" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="146" column="13" severity="warning" message="Local variable name &apos;iDataCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="147" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="147" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="149" column="9" severity="warning" message="第 9 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="149" column="9" severity="warning" message="&apos;for lcurly&apos; 缩进了8个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="150" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为以下缩进之一：6, 8。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="152" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为以下缩进之一：8, 10, 12。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="153" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为以下缩进之一：8, 10, 12。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="154" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为以下缩进之一：8, 10, 12。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="155" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为以下缩进之一：6, 8。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="156" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="159" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="160" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="161" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="161" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="162" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="164" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="164" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="166" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="167" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="168" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="169" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="171" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="172" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="183" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="183" column="38" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="183" column="54" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="183" column="70" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="184" column="40" severity="warning" message="Parameter name &apos;bChangeSignOfOneArray&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="185" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="185" column="13" severity="warning" message="Local variable name &apos;iCorrectCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="186" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="187" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="187" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="188" column="17" severity="warning" message="&apos;if&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="189" column="21" severity="warning" message="&apos;if&apos; 子元素缩进了20个缩进符，应为10个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="190" column="17" severity="warning" message="&apos;if rcurly&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="191" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="193" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="194" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="194" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="195" column="17" severity="warning" message="&apos;if&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="196" column="21" severity="warning" message="&apos;if&apos; 子元素缩进了20个缩进符，应为10个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="197" column="17" severity="warning" message="&apos;if rcurly&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="198" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="200" column="9" severity="warning" message="&apos;else rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="201" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="202" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="214" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="214" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="214" column="38" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="214" column="54" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="214" column="76" severity="warning" message="Parameter name &apos;bSelected&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="214" column="95" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="215" column="36" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="216" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="216" column="13" severity="warning" message="Local variable name &apos;iCorrectCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="217" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="217" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="218" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="218" column="78" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="220" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="221" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="222" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="224" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="225" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="228" severity="warning" message="本行字符数 107个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="237" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="237" column="45" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="237" column="61" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="237" column="83" severity="warning" message="Parameter name &apos;bSelected&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="238" column="47" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="238" column="60" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="239" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="239" column="13" severity="warning" message="Local variable name &apos;iCorrectCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="240" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="240" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="241" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="241" column="78" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="243" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="244" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="245" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="247" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="248" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="259" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="259" column="45" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="259" column="61" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="259" column="77" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="260" column="47" severity="warning" message="Parameter name &apos;bChangeSignOfOneArray&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="261" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="261" column="13" severity="warning" message="Local variable name &apos;iCorrectCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="262" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="263" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="263" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="264" column="17" severity="warning" message="&apos;if&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="265" column="21" severity="warning" message="&apos;if&apos; 子元素缩进了20个缩进符，应为10个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="266" column="17" severity="warning" message="&apos;if rcurly&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="267" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="269" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="270" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="270" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="271" column="17" severity="warning" message="&apos;if&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="272" column="21" severity="warning" message="&apos;if&apos; 子元素缩进了20个缩进符，应为10个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="273" column="17" severity="warning" message="&apos;if rcurly&apos; 缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="274" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="276" column="9" severity="warning" message="&apos;else rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="277" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="278" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="290" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="290" column="70" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="290" column="86" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="291" column="74" severity="warning" message="Parameter name &apos;bSelected&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="291" column="93" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="292" column="68" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="293" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="293" column="13" severity="warning" message="Local variable name &apos;iDataCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="294" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="294" column="16" severity="warning" message="名称 &apos;fAMeanPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="294" column="16" severity="warning" message="Local variable name &apos;fAMeanPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="295" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="295" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="296" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="297" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="298" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="299" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="300" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="301" column="9" severity="warning" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="301" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="302" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="303" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="315" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="315" column="60" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="315" column="76" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="316" column="64" severity="warning" message="Parameter name &apos;bSelected&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="316" column="83" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="317" column="58" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="318" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="318" column="13" severity="warning" message="Local variable name &apos;iDataCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="319" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="319" column="16" severity="warning" message="名称 &apos;fAMeanPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="319" column="16" severity="warning" message="Local variable name &apos;fAMeanPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="320" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="320" column="18" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="321" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="322" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="323" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="324" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="325" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="326" column="9" severity="warning" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="326" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="327" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="328" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="336" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="339" column="5" severity="warning" message="所有重载的方法都应该相邻放置。在相同类型的重载方法之间放置非重载方法是违反的。最后一个重载方法在行 &apos;290&apos; 上。" source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="339" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="339" column="70" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="339" column="86" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="340" column="68" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="341" column="72" severity="warning" message="Parameter name &apos;bChangeSignOfOneArray&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="342" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="342" column="16" severity="warning" message="名称 &apos;fAMeanPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="342" column="16" severity="warning" message="Local variable name &apos;fAMeanPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="343" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="344" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="344" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="345" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="346" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="348" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="349" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="349" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="350" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="351" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="353" column="9" severity="warning" message="&apos;else rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="354" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="355" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="364" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="364" column="72" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="364" column="86" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="366" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="367" column="13" severity="warning" message="&apos;if&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="368" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="369" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="369" column="15" severity="warning" message="Local variable name &apos;iClassCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="370" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="370" column="13" severity="warning" message="Local variable name &apos;iMinClass&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="371" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="371" column="13" severity="warning" message="Local variable name &apos;iMaxClass&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="373" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="374" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="375" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="376" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="377" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="378" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="379" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="380" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="382" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="383" column="13" severity="warning" message="&apos;if&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="384" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="386" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="387" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="388" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="390" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="391" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="392" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="394" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="394" column="13" severity="warning" message="Local variable name &apos;iMaxClassCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="395" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="396" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="397" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="398" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="399" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="401" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="402" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="412" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="412" column="73" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="412" column="89" severity="warning" message="Parameter name &apos;iPredict&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="413" column="71" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="413" column="87" severity="warning" message="Parameter name &apos;bChangeSign&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="414" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="415" column="13" severity="warning" message="&apos;if&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="416" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="417" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="417" column="15" severity="warning" message="Local variable name &apos;iClassCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="418" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="418" column="13" severity="warning" message="Local variable name &apos;iMinClass&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="419" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="419" column="13" severity="warning" message="Local variable name &apos;iMaxClass&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="420" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="421" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="422" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="423" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="424" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="425" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="426" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="427" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="429" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="430" column="13" severity="warning" message="&apos;if&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="431" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="432" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="433" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="434" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="436" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="437" column="13" severity="warning" message="&apos;for&apos; 子元素缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="438" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="440" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="440" column="13" severity="warning" message="Local variable name &apos;iMaxClassCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="441" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="441" column="13" severity="warning" message="Local variable name &apos;iLargestClass&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="442" column="9" severity="warning" message="&apos;for&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="443" column="13" severity="warning" message="&apos;if&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="444" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="445" column="17" severity="warning" message="&apos;if&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="446" column="13" severity="warning" message="&apos;if rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="447" column="9" severity="warning" message="&apos;for rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="449" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="450" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="451" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="452" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="454" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="455" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="456" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="457" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="459" column="9" severity="warning" message="&apos;else rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="460" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="468" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="471" column="5" severity="warning" message="所有重载的方法都应该相邻放置。在相同类型的重载方法之间放置非重载方法是违反的。最后一个重载方法在行 &apos;315&apos; 上。" source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="471" column="5" severity="warning" message="&apos;method def modifier&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="471" column="60" severity="warning" message="Parameter name &apos;iCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="471" column="76" severity="warning" message="Parameter name &apos;iPredicted&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="471" column="92" severity="warning" message="Parameter name &apos;iCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="472" column="62" severity="warning" message="Parameter name &apos;bChangeSignOfOneArray&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="473" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="473" column="16" severity="warning" message="名称 &apos;fAMeanPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="473" column="16" severity="warning" message="Local variable name &apos;fAMeanPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="474" column="9" severity="warning" message="&apos;if&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="475" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="475" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="476" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="477" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="478" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="479" column="9" severity="warning" message="&apos;if rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="480" column="13" severity="warning" message="&apos;for&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="480" column="22" severity="warning" message="Local variable name &apos;iRow&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="481" column="17" severity="warning" message="&apos;for&apos; 子元素缩进了16个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="482" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="483" column="13" severity="warning" message="&apos;for rcurly&apos; 缩进了12个缩进符，应为6个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="484" column="9" severity="warning" message="&apos;else rcurly&apos; 缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="485" column="9" severity="warning" message="&apos;method def&apos; 子元素缩进了8个缩进符，应为4个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="486" column="5" severity="warning" message="&apos;method def rcurly&apos; 缩进了4个缩进符，应为2个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>
