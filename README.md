@@ -2,6 +2,13 @@
 
 [![Latest Release](http://172.29.4.49/0021/process-document/-/badges/release.svg)](http://172.29.4.49/0021/process-document/-/releases)
 
+为了使用 Git hooks，在 clone 本仓库后请键入如下命令
+
+```
+npm install
+npx husky install
+```
+
 # 项目结构
 
 - `iteration-1`：第一轮迭代的代码和文档所在的文件夹
