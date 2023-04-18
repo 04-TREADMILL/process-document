@@ -2,6 +2,7 @@
 
 - 后端代码部署流水线触发，将打包的 jar 上传到阿里云 OSS (https://senti-strength.oss-cn-nanjing.aliyuncs.com/myEASIEST-1.0-SNAPSHOT.jar)
 - 前端使用 Python Streamlit 框架，使用 Docker 部署，其构建脚本中会设置对应的 word lists 和 jar 包，可以动态获取到最新的 jar 包
+- 过程文档使用 [autocorrect](https://hub.docker.com/r/huacnlee/autocorrect) 检查文档中的格式问题，从而起到统一规范的作用
 
 # 后端流水线搭建
 
