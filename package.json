@@ -1,8 +1,8 @@
 {
   "name": "process-document",
   "version": "1.0.0",
-  "description": "[![pipeline status](http://172.29.4.49/0021/process-document/badges/master/pipeline.svg)](http://172.29.4.49/0021/process-document/-/commits/master)",
-  "main": "index.js",
+  "description": "",
+  "main": "README.md",
   "scripts": {
     "prepare": "husky install"
   },
