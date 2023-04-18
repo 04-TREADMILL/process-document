@@ -188,7 +188,7 @@ method.invoke(urlClassLoader, u);
 
 重构对象：
 
-Utilities.java、WekaCrossValidateInfoGain.java、WekaCrossValidateNoSelection.java、WekaDirectTrainClassifyEvaluate.java
+Utilities.java, WekaCrossValidateInfoGain.java, WekaCrossValidateNoSelection.java, WekaDirectTrainClassifyEvaluate.java
 
 ### 4.在 for 循环条件判断和自增语句上直接进行循环要做的操作
 
