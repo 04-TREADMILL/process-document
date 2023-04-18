@@ -26,12 +26,12 @@
     - `SE-Text.xlsx`：用于软件工程文本分析的数据集
   - `项目代码分析`：第二轮迭代中对项目代码进行分析所在的文件夹
     - `分析报告`：分析报告所在的文件夹
-      - `checkstyle工具检测与分析`：分析 checkstyle 工具检测和分析的文件夹
-        - `checkstyle分析报告.md`：checkstyle 工具检测和分析的报告文档
+      - `checkstyle 工具检测与分析`：分析 checkstyle 工具检测和分析的文件夹
+        - `checkstyle 分析报告.md`：checkstyle 工具检测和分析的报告文档
         - `commit1`：第一次提交的代码版本所在的文件夹
           - `BoosterWordsList.xml` 等多个 xml 文件：checkstyle 工具所产生的报告具体内容
         - `commit2`：第二次提交的代码版本所在的文件夹，包含相同的 xml 文件内容
-      - `sonarlint工具检测与分析`：分析 sonarlint 工具检测和分析的文件夹
+      - `sonarlint 工具检测与分析`：分析 sonarlint 工具检测和分析的文件夹
         - `sentistrength.pdf`：sonarlint 工具检测和分析的报告文档
 - `README.md`：说明本项目文件结构的文档。
 

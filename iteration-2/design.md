@@ -89,9 +89,9 @@
 
 ## SentiStrength.java
 
-### 1. 复杂嵌套if-else的重构
+### 1. 复杂嵌套 if-else 的重构
 
-1. SentiStrength类中，`initialiseAndRun`等方法频繁出现类似如下的语句，if-else层层嵌套，跨越几百行，而且往下翻会发现其实只会执行if对应的几行语句，就直接退出函数了。
+1. SentiStrength 类中，`initialiseAndRun`等方法频繁出现类似如下的语句，if-else 层层嵌套，跨越几百行，而且往下翻会发现其实只会执行 if 对应的几行语句，就直接退出函数了。
 
 ```java
 if(){
@@ -115,7 +115,7 @@ if(){
 ...
 ```
 
-这样可以清晰的知道符合某一条件时应该执行哪些语句，也明确了何时会退出方法，不需要跨越大几百行阅读嵌套if-else。
+这样可以清晰的知道符合某一条件时应该执行哪些语句，也明确了何时会退出方法，不需要跨越大几百行阅读嵌套 if-else。
 
 ### 2. 复用代码段的提取
 
@@ -151,7 +151,7 @@ public OutputVO computeSentimentScores(String sentence, String separator) {
 
 ### 3. 其他
 
-将for语句改为强化的for语句：``for (File listOfFile : listOfFiles)``
+将 for 语句改为强化的 for 语句：``for (File listOfFile : listOfFiles)``
 
 删除了无效的代码，例如几次出现的`while(true){while(true){}}`嵌套死循环
 
@@ -163,21 +163,21 @@ public OutputVO computeSentimentScores(String sentence, String separator) {
 
 不必要的类型转换会使代码更加晦涩难懂，如`Paragraph.java`类中的表达式：`this.igPositiveSentiment = (int) Math.round(((double) (fTotalPos + (float) iPosWords) + 0.45D) / (double) iPosWords);`
 
-根据java语法，这里将int和float转化为double的操作是不必要的。我们将上面的式子重构为：`this.igPositiveSentiment = (int) Math.round(((fTotalPos + iPosWords) + 0.45D) / iPosWords);`
+根据 java 语法，这里将 int 和 float 转化为 double 的操作是不必要的。我们将上面的式子重构为：`this.igPositiveSentiment = (int) Math.round(((fTotalPos + iPosWords) + 0.45D) / iPosWords);`
 
-重构对象：对ClassificationStatistics.java、Corpus.java、Paragraph.java、Sentence.java、SentiStrength.java、SentimentWords.java、Arff.java、Predict.java。
+重构对象：对 ClassificationStatistics.java、Corpus.java、Paragraph.java、Sentence.java、SentiStrength.java、SentimentWords.java、Arff.java、Predict.java。
 
-结果不一一列举，我们人工检查到的都是对int、float、double类型的冗余转换，并未找到其他。
+结果不一一列举，我们人工检查到的都是对 int、float、double 类型的冗余转换，并未找到其他。
 
 ### 2. 方法和类遵循驼峰命名规则
 
-检查了方法名规范，只有一种例外，如`i_Sort()`标识某个方法是供int型使用，我们遵循原先的命名方式。
+检查了方法名规范，只有一种例外，如`i_Sort()`标识某个方法是供 int 型使用，我们遵循原先的命名方式。
 
 重构对象：ClassificationStatistics.java、Corpus.java、Paragraph.java、WekaCrossValidateInfoGain.java、WekaCrossValidateNoSelection.java，此外重构了软件包的名字，"WekaClass"、"SentiStrength"
 
 ### 3.去除冗余的数组参数创建
 
-对于不知道有几个参数的情况即varargs(...)参数，创建数组并没有什么价值，反而会使开发者迷惑应该以数组为单独对象还是当作集合。例如：
+对于不知道有几个参数的情况即 varargs(...) 参数，创建数组并没有什么价值，反而会使开发者迷惑应该以数组为单独对象还是当作集合。例如：
 
 ```java
 //原代码
@@ -190,7 +190,7 @@ method.invoke(urlClassLoader, u);
 
 Utilities.java、WekaCrossValidateInfoGain.java、WekaCrossValidateNoSelection.java、WekaDirectTrainClassifyEvaluate.java
 
-### 4.在for循环条件判断和自增语句上直接进行循环要做的操作
+### 4.在 for 循环条件判断和自增语句上直接进行循环要做的操作
 
 在检查中，有多次看到例如这样的代码：
 
@@ -211,9 +211,9 @@ Utilities.java、WekaCrossValidateInfoGain.java、WekaCrossValidateNoSelection.j
 
 重构对象：arff.java
 
-### 5. 建议使用java.nio.files#delete
+### 5. 建议使用 java.nio.files#delete
 
-项目中有许多对文件的操作，删除也是其中之一，项目中使用java.io.File#delete，这个方法在失败时并不会提示错误原因，因此我们将它优化为java.nio.files#delete
+项目中有许多对文件的操作，删除也是其中之一，项目中使用 java.io.File#delete，这个方法在失败时并不会提示错误原因，因此我们将它优化为 java.nio.files#delete
 
 示例如下：
 
@@ -228,19 +228,19 @@ Files.delete(original);
 
 重构对象：Corpus.java、FileOps.java、Arff.java
 
-### 6. 字符串比较应该用equals()
+### 6. 字符串比较应该用 equals()
 
 观察到在比较字符串时，有使用"=="进行比较，考虑将它进行修改。
 
 重构对象：EvaluativeTerms.java
 
-### 7. 可能的以0为分母的计算
+### 7. 可能的以 0 为分母的计算
 
 在做除法前，对变量应该进行检查。
 
 重构对象：ClassificationStatistics.java、Arff.java
 
-### 8. switch应该有default分支
+### 8. switch 应该有 default 分支
 
 ```java
       switch (iLastCharType) {
@@ -258,9 +258,9 @@ Files.delete(original);
 
 重构对象：Term.java
 
-### 9. 返回空数组而不是null
+### 9. 返回空数组而不是 null
 
-对于方法的返回值，当它为数组时，即使长度为0，我们也应该返回空数组，而不是null，以避免错误的产生。
+对于方法的返回值，当它为数组时，即使长度为 0，我们也应该返回空数组，而不是 null，以避免错误的产生。
 
 ```java
 //原代码
@@ -277,4 +277,4 @@ public String[] getInput() {
 
 ### 10. 其他
 
-合并了一些if条件，去除了冗余的变量赋值，使用standardCharSets
+合并了一些 if 条件，去除了冗余的变量赋值，使用 standardCharSets

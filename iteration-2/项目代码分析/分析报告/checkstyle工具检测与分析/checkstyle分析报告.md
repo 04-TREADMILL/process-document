@@ -1,10 +1,10 @@
-# checkstyle报告
+# checkstyle 报告
 
-## checkstyle报告
+## checkstyle 报告
 
 ### commit 1
 
-对原始代码进行Check，并生成报告
+对原始代码进行 Check，并生成报告
 
 **警告情况**
 
@@ -35,7 +35,7 @@
 
 ### commit 2
 
-利用IDEA自有的格式化代码功能，根据Google规则，格式化代码，消除大部分的警告
+利用 IDEA 自有的格式化代码功能，根据 Google 规则，格式化代码，消除大部分的警告
 
 **警告情况**
 
@@ -98,8 +98,8 @@
 
 
 - 原有警告：Switch 块未定义 default 。 (96:7) [MissingSwitchDefault]
-- 修改：添加default判断
-- 警告原因：switch没有default块
+- 修改：添加 default 判断
+- 警告原因：switch 没有 default 块
 - 修改原因：对非法的字段进行过滤，检查无效字段
 
 ```Java
