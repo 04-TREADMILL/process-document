@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "pre-commit": "curl -sSL https://git.io/JcGER | sh && autocorrect -V && find . -name *.md | xargs autocorrect --lint"
+  }
+}
