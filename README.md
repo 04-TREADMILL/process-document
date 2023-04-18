@@ -1,4 +1,8 @@
-# 文件结构
+[![pipeline status](http://172.29.4.49/0021/process-document/badges/master/pipeline.svg)](http://172.29.4.49/0021/process-document/-/commits/master)
+
+[![Latest Release](http://172.29.4.49/0021/process-document/-/badges/release.svg)](http://172.29.4.49/0021/process-document/-/releases)
+
+# 项目结构
 
 - `iteration-1`：第一轮迭代的代码和文档所在的文件夹
   - `division.md`：第一轮迭代中小组成员分工情况的文档
