@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-curl -sSL https://git.io/JcGER | sh && autocorrect -V && find . -name *.md | xargs autocorrect --lint
+if ! which autocorrect >/dev/null; then
+  echo "Error: autocorrect is not installed." >&2
+  exit 1
+fi
+
+autocorrect -V && find . -name *.md | xargs autocorrect --lint
