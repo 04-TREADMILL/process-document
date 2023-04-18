@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+curl -sSL https://git.io/JcGER | sh && autocorrect -V && find . -name *.md | xargs autocorrect --lint
