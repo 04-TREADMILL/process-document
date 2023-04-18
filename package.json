@@ -4,7 +4,7 @@
   "description": "[![pipeline status](http://172.29.4.49/0021/process-document/badges/master/pipeline.svg)](http://172.29.4.49/0021/process-document/-/commits/master)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",

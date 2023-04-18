@@ -6,7 +6,7 @@
 
 ```
 npm install
-npx husky install
+npm run prepare
 ```
 
 # 项目结构
