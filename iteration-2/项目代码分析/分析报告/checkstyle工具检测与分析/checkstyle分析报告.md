@@ -2,65 +2,65 @@
 
 ## checkstyle 报告
 
-### commit 1
+### commit 0
 
 对原始代码进行 Check，并生成报告
 
 **警告情况**
 
-| class                          | 警告类型 | 警告优先级 | 警告数量 |
-| ------------------------------ | -------- | ---------- | -------- |
-| BoosterWordList                |          |            | 183      |
-| ClassificationOptions          |          |            | 251      |
-| ClassificationResources        |          |            | 105      |
-| ClassificationStatistics       |          |            | 547      |
-| Corpus                         |          |            | 2341     |
-| CorrectSpellingsList           |          |            | 87       |
-| EvaluativeTerms                |          |            | 113      |
-| IdiomList                      |          |            | 153      |
-| IronyList                      |          |            | 57       |
-| Lemmatister                    |          |            | 125      |
-| NegatingWordList               |          |            | 74       |
-| Paragraph                      |          |            | 586      |
-| QuestionWords                  |          |            | 56       |
-| Sentence                       |          |            | 964      |
-| SentimentWords                 |          |            | 448      |
-| SentiStrength                  |          |            | 1235     |
-| Term                           |          |            | 467      |
-| Test                           |          |            | 33       |
-| TextParsingOptions             |          |            | 11       |
-| UnusedTermsClassificationIndex |          |            | 436      |
+| class                          | 警告类型 | 警告数量 |
+| ------------------------------ | -------- | -------- |
+| BoosterWordList                | error    | 183      |
+| ClassificationOptions          | error    | 251      |
+| ClassificationResources        | error    | 105      |
+| ClassificationStatistics       | error    | 547      |
+| Corpus                         | error    | 2341     |
+| CorrectSpellingsList           | error    | 87       |
+| EvaluativeTerms                | error    | 113      |
+| IdiomList                      | error    | 153      |
+| IronyList                      | error    | 57       |
+| Lemmatister                    | error    | 125      |
+| NegatingWordList               | error    | 74       |
+| Paragraph                      | error    | 586      |
+| QuestionWords                  | error    | 56       |
+| Sentence                       | error    | 964      |
+| SentimentWords                 | error    | 448      |
+| SentiStrength                  | error    | 1235     |
+| Term                           | error    | 467      |
+| Test                           | error    | 33       |
+| TextParsingOptions             | error    | 11       |
+| UnusedTermsClassificationIndex | error    | 436      |
 
 
 
-### commit 2
+### commit 1
 
 利用 IDEA 自有的格式化代码功能，根据 Google 规则，格式化代码，消除大部分的警告
 
 **警告情况**
 
-| class                          | 警告类型 | 警告优先级 | 警告数量 |
-| ------------------------------ | -------- | ---------- | -------- |
-| BoosterWordList                |          |            | 31       |
-| ClassificationOptions          |          |            | 34       |
-| ClassificationResources        |          |            | 34       |
-| ClassificationStatistics       |          |            | 164      |
-| Corpus                         |          |            | 350      |
-| CorrectSpellingsList           |          |            | 14       |
-| EvaluativeTerms                |          |            | 17       |
-| IdiomList                      |          |            | 22       |
-| IronyList                      |          |            | 6        |
-| Lemmatister                    |          |            | 22       |
-| NegatingWordList               |          |            | 8        |
-| Paragraph                      |          |            | 82       |
-| QuestionWords                  |          |            | 6        |
-| Sentence                       |          |            | 122      |
-| SentimentWords                 |          |            | 79       |
-| SentiStrength                  |          |            | 136      |
-| Term                           |          |            | 56       |
-| Test                           |          |            | 3        |
-| TextParsingOptions             |          |            | 2        |
-| UnusedTermsClassificationIndex |          |            | 85       |
+| class                          | 警告类型 | 警告数量 |
+| ------------------------------ | -------- | -------- |
+| BoosterWordList                | error    | 31       |
+| ClassificationOptions          | error    | 34       |
+| ClassificationResources        | error    | 34       |
+| ClassificationStatistics       | error    | 164      |
+| Corpus                         | error    | 350      |
+| CorrectSpellingsList           | error    | 14       |
+| EvaluativeTerms                | error    | 17       |
+| IdiomList                      | error    | 22       |
+| IronyList                      | error    | 6        |
+| Lemmatister                    | error    | 22       |
+| NegatingWordList               | error    | 8        |
+| Paragraph                      | error    | 82       |
+| QuestionWords                  | error    | 6        |
+| Sentence                       | error    | 122      |
+| SentimentWords                 | error    | 79       |
+| SentiStrength                  | error    | 136      |
+| Term                           | error    | 56       |
+| Test                           | error    | 3        |
+| TextParsingOptions             | error    | 2        |
+| UnusedTermsClassificationIndex | error    | 85       |
 
 **警告变化情况**
 
@@ -87,15 +87,15 @@
 | TextParsingOptions             | 9     | 0    | 2    |
 | UnusedTermsClassificationIndex | 351   | 0    | 85   |
 
-## commit 3
+### commit 2
 
-## commit 4
+
+
+### commit 3
 
 
 
 ## 修改的警告例子
-
-
 
 - 原有警告：Switch 块未定义 default。 (96:7) [MissingSwitchDefault]
 - 修改：添加 default 判断
@@ -118,7 +118,7 @@
 
 
 
-
+## 对比人工 Debug
 
 
 
@@ -126,11 +126,10 @@
 
 
 
-## 统计漏报的缺陷数量
+## 统计漏报的缺陷
 
-
+漏报的缺陷，漏报的原因
 
 ## 统计工具本身缺陷
 
-
-
+工具本身缺陷的数量 + 原因

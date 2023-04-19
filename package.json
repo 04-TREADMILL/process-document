@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.3"
+  },
+  "dependencies": {
+    "autocorrect": "^1.2.0"
   }
 }
