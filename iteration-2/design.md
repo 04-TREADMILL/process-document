@@ -7,67 +7,115 @@
 具体的
 
 ```
-.
-├── DemoApplication.java
-├── Main.java
-├── sentistrength
-│   ├── BoosterWordsList.java
-│   ├── ClassificationOptions.java
-│   ├── ClassificationResources.java
-│   ├── ClassificationStatistics.java
-│   ├── Corpus.java
-│   ├── CorrectSpellingsList.java
-│   ├── EmoticonsList.java
-│   ├── EvaluativeTerms.java
-│   ├── IdiomList.java
-│   ├── IronyList.java
-│   ├── Lemmatiser.java
-│   ├── NegatingWordList.java
-│   ├── Paragraph.java
-│   ├── QuestionWords.java
-│   ├── Sentence.java
-│   ├── SentimentWords.java
-│   ├── SentiStrength.java
-│   ├── Term.java
-│   ├── Test.java
-│   ├── TextParsingOptions.java
-│   └── UnusedTermsClassificationIndex.java
-├── utilities
-│   ├── FileOps.java
-│   ├── HelpOld.java
-│   ├── SentiStrengthOld.java
-│   ├── SentiStrengthTestAppletOld.java
-│   ├── Sort.java
-│   ├── StringIndex.java
-│   └── Trie.java
-└── wkaclass
-    ├── Arff.java
-    ├── PredictClass.java
-    ├── Utilities.java
-    ├── WekaCrossValidateInfoGain.java
-    ├── WekaCrossValidateNoSelection.java
-    ├── WekaDirectTrainClassifyEvaluate.java
-    └── WekaMachineLearning.java
+src
+    ├─main
+    │  ├─generated
+    │  ├─java
+    │  │  └─nju
+    │  │      └─SEIII
+    │  │          └─EASIEST
+    │  │              │  Main.java
+    │  │              │  
+    │  │              ├─SentiStrength
+    │  │              │  │  ClassificationOptions.java
+    │  │              │  │  ClassificationResources.java
+    │  │              │  │  ClassificationStatistics.java
+    │  │              │  │  EvaluativeTerms.java
+    │  │              │  │  IdiomList.java
+    │  │              │  │  Lemmatiser.java
+    │  │              │  │  Paragraph.java
+    │  │              │  │  Sentence.java
+    │  │              │  │  SentimentWords.java
+    │  │              │  │  SentiStrength.java
+    │  │              │  │  Term.java
+    │  │              │  │  Test.java
+    │  │              │  │  TextParsingOptions.java
+    │  │              │  │  UnusedTermsClassificationIndex.java
+    │  │              │  │  
+    │  │              │  ├─Corpus
+    │  │              │  │      BaseCorpus.java
+    │  │              │  │      BinaryModeCorpus.java
+    │  │              │  │      ScaleModeCorpus.java
+    │  │              │  │      TrinaryModeCorpus.java
+    │  │              │  │      
+    │  │              │  ├─WordPresenceList
+    │  │              │  │      CorrectSpellingsList.java
+    │  │              │  │      IronyList.java
+    │  │              │  │      NegatingWordList.java
+    │  │              │  │      QuestionWords.java
+    │  │              │  │      WordPresenceList.java
+    │  │              │  │      
+    │  │              │  └─WordStrengthList
+    │  │              │          BoosterWordsList.java
+    │  │              │          EmoticonsList.java
+    │  │              │          WordStrengthList.java
+    │  │              │          
+    │  │              ├─Utilities
+    │  │              │  │  FileOps.java
+    │  │              │  │  HelpOld.java
+    │  │              │  │  SentiStrengthOld.java
+    │  │              │  │  SentiStrengthTestAppletOld.java
+    │  │              │  │  Sort.java
+    │  │              │  │  StringIndex.java
+    │  │              │  │  Trie.java
+    │  │              │  │  
+    │  │              │  └─VO
+    │  │              │          OutputVO.java
+    │  │              │          
+    │  │              └─WekaClass
+    │  │                      Arff.java
+    │  │                      PredictClass.java
+    │  │                      Utilities.java
+    │  │                      WekaCrossValidateInfoGain.java
+    │  │                      WekaCrossValidateNoSelection.java
+    │  │                      WekaDirectTrainClassifyEvaluate.java
+    │  │                      WekaMachineLearning.java
+    │  │                      
+    │  └─resources
+    │      └─static
+    │          └─data
+    │                  BoosterWordList.txt
+    │                  EmoticonLookupTable.txt
+    │                  EmotionLookupTable.txt
+    │                  EnglishWordList.txt
+    │                  IdiomLookupTable.txt
+    │                  NegatingWordList.txt
+    │                  QuestionWords.txt
+    │                  SlangLookupTable.txt
+    │                  
+    └─test
+        ├─java
+        │      OutputConsistencyTest.java
+        │      
+        └─resources
+            └─data
+                    expected.txt
+                    myfile.csv
 ```
 
 其中
 
 - Main.java 是项目的入口程序，用于启动整个项目应用。
 - sentistrength 该文件夹包含 SentiStrength 情感分析工具的源代码，主要实现了各种情感分析算法、词典库等功能。
-  - BoosterWordsList：实现增强词（Booster words）列表的管理功能，用于提升文本的情感极性。
+  - WordPresenceList：封装了仅有存储单词功能的单词表
+    - CorrectSpellingsList：实现了纠正拼写错误的功能。
+    - IronyList：实现了判断文本中是否包含反讽语的功能。
+    - NegatingWordList：定义了否定词列表的管理功能，用于将其它词汇的情感极性转变为相反态度。
+    - QuestionWords：定义了问题词的列表，用于判断文本中是否包含疑问。
+
+  - WordStrengthList：封装了可以查询单词强度的单词表
+    - BoosterWordsList：实现增强词（Booster words）列表的管理功能，用于提升文本的情感极性。
+    - EmoticonsList：提供了表情符号列表的管理功能。
+
   - ClassificationOptions：定义了模型训练和分类时的一些参数和选项。
   - ClassificationResources：提供了资源文件的访问和管理接口。
   - ClassificationStatistics：实现了情感分类器的统计指标计算和评估功能。
   - Corpus：封装了语料库的操作和访问接口。
-  - CorrectSpellingsList：实现了纠正拼写错误的功能。
-  - EmoticonsList：提供了表情符号列表的管理功能。
   - EvaluativeTerms：实现了评价性词汇列表的管理功能。
   - IdiomList：提供了习语列表的管理功能。
-  - IronyList：实现了判断文本中是否包含反讽语的功能。
   - Lemmatiser：定义了基于词形归并的词形还原接口。
-  - NegatingWordList：定义了否定词列表的管理功能，用于将其它词汇的情感极性转变为相反态度。
   - Paragraph：实现了段落的分割和处理接口。
-  - QuestionWords：定义了问题词的列表，用于判断文本中是否包含疑问。
+
 - utilities 该文件夹包含一些实用工具类的源代码，例如文件操作、字符串操作、排序等。
   - FileOps：实现了文件操作的各种功能，例如读写文件、创建目录等。
   - HelpOld：提供了旧版本的帮助文档和命令行参数解析功能。
@@ -156,6 +204,153 @@ public OutputVO computeSentimentScores(String sentence, String separator) {
 删除了无效的代码，例如几次出现的`while(true){while(true){}}`嵌套死循环
 
 ## Corpus
+
+## Sentence
+
+### 1. 多余if-else的重构
+
+在calculateSentenceSentimentScore()这一方法中，需要遍历sentence中的每一个term并根据term的类型做相应的处理，而原来代码中的判断逻辑有些复杂：
+
+```java
+private void calculateSentenceSentimentScore() {
+    // previous code
+    if (!this.term[iTerm].isWord()) {
+    	if (this.term[iTerm].isEmoticon()) {
+        	// If the term is emoticon, do something
+        } else if (this.term[iTerm].isPunctuation()) {
+        	// If the term is punctuation, do something
+        }
+    } else {
+        // If the term is word, do something
+    }
+}
+```
+
+可以将其改为：
+
+```java
+private void calculateSentenceSentimentScore() {
+    // previous code
+   	if (this.term[iTerm].isEmoticon()) {
+        // If the term is emoticon, do something
+    }else if (this.term[iTerm].isPunctuation()) {
+      	// If the term is punctuation, do something
+    }else if(this.term[iTerm].isWord()){
+        // If the term is word, do something
+    }
+}
+```
+
+### 2. 删去无用getClass语句
+
+sentence中有三处会调用this.options.getClass()方法，但前后并没有用到，所以删除。
+
+如此处：
+
+```java
+this.options.getClass()
+if (var10000 == 2) {
+	this.igPositiveSentiment = Math.round(fTotalPos) + iPosWords;
+	this.igNegativeSentiment = Math.round(fTotalNeg) - iNegWords;
+} else {
+ 	this.igPositiveSentiment = Math.round(fMaxPos);
+ 	this.igNegativeSentiment = Math.round(fMaxNeg);
+}
+```
+
+### 3. 删除无用的变量
+
+在根据classifyingOptions中的一些布尔值进行判断的语句，使用了一些变量来存储布尔值，但实际上不需要。
+
+如此处，var10000并不需要：
+
+```java
+var10000 = this.options.igEmotionSentenceCombineMethod;
+if (var10000 != 2) {
+	if (this.igPositiveSentiment > 5) {
+		this.igPositiveSentiment = 5;
+	}
+
+	if (this.igNegativeSentiment < -5) {
+		this.igNegativeSentiment = -5;
+	}
+}
+```
+
+修改后为：
+
+```java
+if (this.options.igEmotionSentenceCombineMethod != 2) {
+	if (this.igPositiveSentiment > 5) {
+		this.igPositiveSentiment = 5;
+	}
+
+	if (this.igNegativeSentiment < -5) {
+        this.igNegativeSentiment = -5;
+	}
+}
+```
+
+## Word Presence List和Word Strength List
+
+Sentistrength 项目中有很多 Word List，因为 Sentistrength 需要用到许多不同类型的单词进行相应的操作，而 Word List 就是用来储存不同类型的单词的。
+
+根据观察，大概有两种 Word List：
+
+- 第一种是一个单词对应一个 strength，如 Booster Words List 和 Emoticon List。
+- 第二种仅储存单词，仅提供了检查单词是否属于 Word List 的功能，例如 Correct Spellings List，Irony List，Negating Word List 和 Question Words。
+
+除以上提到的 Word List 外，还有 Idiom List 和 Evaluative Terms。由于它们内部的数据结构向外暴露无法抽象成基类，所以就放弃了。
+
+### 1. Word Presence List
+
+Word Presence List 的基类代码如下：
+
+```java
+public abstract class WordPresenceList {
+    public abstract boolean initialise(String sFilename, ClassificationOptions options);
+
+    public abstract boolean contains(String sword);
+}
+```
+
+仅提供了 contains 方法，用于检查一个单词是否属于该 Word List。
+
+### 2. Word Strength List
+
+Word Strength List 的基类代码如下：
+
+```java
+public abstract class WordStrengthList {
+    public abstract boolean initialise(String sFilename, ClassificationOptions options);
+
+    public abstract int getStrength(String sword);
+}
+```
+
+getStrength 方法接受一个字符串作为参数，并以 int 形式返回相应的 strength。
+
+Booster Word List 的 initialize 方法本来还有一个 iExtraBlankArrayEntriesToInclude 参数，用于在创建存放 Booster Word 和 Strength 的数组时留有多余的空间。代码如下：
+
+```java
+sgBoosterWords = new String[iLinesInFile + 1 + iExtraBlankArrayEntriesToInclude];
+igBoosterWordStrength = new int[iLinesInFile + 1 + iExtraBlankArrayEntriesToInclude];
+```
+
+Booster Word List 还提供了添加 Booster Word 的方法，但由于这个方法在代码中没有使用过，为了方便基类的继承，就删除了这个方法参数。
+
+### 3. Classification Resources
+
+除了对类的修改，还在 Classification Resources 中对 Word List 的类型进行了修改：
+
+```java
+	public WordStrengthList emoticons;
+  	public WordPresenceList correctSpellings;
+  	public WordPresenceList negatingWords;
+  	public WordPresenceList questionWords;
+  	public WordStrengthList boosterWords;
+  	public WordPresenceList ironyList;
+```
 
 ## 根据一些原则进行的重构
 
