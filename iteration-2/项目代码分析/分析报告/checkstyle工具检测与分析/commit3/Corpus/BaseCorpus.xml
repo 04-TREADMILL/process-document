@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.9.3">
+<file name="C:\Users\70903\Study\NJUSE\2023_Spring\SEIII\Gitlab\senti-strength\checkstyle\..\src\main\java\nju\SEIII\EASIEST\sentistrength\Corpus\BaseCorpus.java">
+<error line="6" column="9" severity="warning" message="Package name &apos;nju.SEIII.EASIEST.SentiStrength.Corpus&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="33" severity="warning" message="本行字符数 105个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" severity="warning" message="本行字符数 117个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="39" severity="warning" message="多余的 &lt;p&gt; 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="40" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="41" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="42" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="43" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="44" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="45" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="46" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="47" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="48" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="49" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="50" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="51" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="52" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="53" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="54" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="55" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="56" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="57" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="58" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="59" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="60" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="61" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="62" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="63" severity="warning" message="&lt;p&gt; 标签前应有空行。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="63" severity="warning" message="&lt;p&gt; 标签应在第一个字符之前，紧邻后者，之间不允许有空格。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="63" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="67" column="32" severity="warning" message="变量 &apos;options&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="68" column="34" severity="warning" message="变量 &apos;resources&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="82" column="19" severity="warning" message="名称 &apos;igSentimentIDList&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="83" column="17" severity="warning" message="名称 &apos;igSentimentIDListCount&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="84" column="19" severity="warning" message="名称 &apos;igSentimentIDParagraphCount&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="85" column="21" severity="warning" message="名称 &apos;bSentimentIDListMade&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="85" column="21" severity="warning" message="Member name &apos;bSentimentIDListMade&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="120" column="78" severity="warning" message="Parameter name &apos;iMinFreq&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="128" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="134" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="136" column="38" severity="warning" message="Parameter name &apos;bSubcorpusMember&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="150" severity="warning" message="本行字符数 130个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="175" severity="warning" message="本行字符数 123个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="178" column="47" severity="warning" message="Parameter name &apos;sText&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="178" column="58" severity="warning" message="Parameter name &apos;iPosCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="178" column="75" severity="warning" message="Parameter name &apos;iNegCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="182" column="24" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="194" column="22" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="202" severity="warning" message="本行字符数 114个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="203" severity="warning" message="本行字符数 123个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="208" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="208" column="35" severity="warning" message="Parameter name &apos;sInFilenameAndPath&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="213" column="29" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="225" column="22" severity="warning" message="Local variable name &apos;rReader&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="226" column="14" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="241" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="245" column="47" severity="warning" message="Parameter name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="247" column="9" severity="warning" message="Local variable name &apos;iLastTabPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="248" column="9" severity="warning" message="Local variable name &apos;iFirstTabPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="260" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="264" column="44" severity="warning" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="265" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="268" column="51" severity="warning" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="269" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="270" severity="warning" message="本行字符数 133个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="270" column="133" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="294" severity="warning" message="本行字符数 106个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="340" severity="warning" message="本行字符数 115个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="363" severity="warning" message="本行字符数 122个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="365" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="365" column="64" severity="warning" message="名称 &apos;iSentimentWordID&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="365" column="64" severity="warning" message="Parameter name &apos;iSentimentWordID&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="366" column="64" severity="warning" message="Parameter name &apos;iMinParasToContainWord&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="373" column="9" severity="warning" message="名称 &apos;iSentimentWordIDArrayPos&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="373" column="9" severity="warning" message="Local variable name &apos;iSentimentWordIDArrayPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="376" column="37" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="376" column="40" severity="warning" message="&apos;||&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="407" column="52" severity="warning" message="Parameter name &apos;sOutFilenameAndPath&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="412" column="22" severity="warning" message="Local variable name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="416" column="96" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="455" severity="warning" message="本行字符数 139个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="469" severity="warning" message="本行字符数 139个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="491" column="9" severity="warning" message="Local variable name &apos;iMatches&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="514" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="523" column="12" severity="warning" message="Local variable name &apos;fTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="524" column="9" severity="warning" message="Local variable name &apos;iTotal&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="543" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="552" column="9" severity="warning" message="Local variable name &apos;iTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="576" severity="warning" message="本行字符数 101个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="590" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="604" severity="warning" message="本行字符数 123个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="606" severity="warning" message="本行字符数 122个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="618" severity="warning" message="本行字符数 123个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="620" severity="warning" message="本行字符数 122个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="632" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="634" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="641" severity="warning" message="本行字符数 116个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="643" severity="warning" message="本行字符数 115个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="649" column="9" severity="warning" message="Local variable name &apos;iTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="663" severity="warning" message="本行字符数 116个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="666" severity="warning" message="本行字符数 113个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="667" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="667" severity="warning" message="本行字符数 103个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="673" column="12" severity="warning" message="Local variable name &apos;fTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="674" column="9" severity="warning" message="Local variable name &apos;iTotal&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="693" severity="warning" message="本行字符数 117个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="720" severity="warning" message="本行字符数 118个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="723" column="15" severity="warning" message="名称 &apos;makeSentimentIDListForCompleteCorpusIgnoringSubcorpus&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="736" column="15" severity="warning" message="名称 &apos;sentenceIDList&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="747" column="15" severity="warning" message="名称 &apos;sentenceIDList&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="765" severity="warning" message="本行字符数 115个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="767" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="771" column="58" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="772" column="62" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="772" column="87" severity="warning" message="Parameter name &apos;iReplications&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="773" column="58" severity="warning" message="Parameter name &apos;iMultiOptimisations&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="774" column="69" severity="warning" message="Parameter name &apos;sWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="775" column="69" severity="warning" message="Parameter name &apos;wTermStrengthWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="781" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="788" severity="warning" message="本行字符数 115个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="790" severity="warning" message="本行字符数 102个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="794" column="57" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="795" column="61" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="795" column="86" severity="warning" message="Parameter name &apos;iReplications&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="796" column="57" severity="warning" message="Parameter name &apos;iMultiOptimisations&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="796" column="85" severity="warning" message="Parameter name &apos;sOutFileName&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="798" column="22" severity="warning" message="Local variable name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="799" column="22" severity="warning" message="Local variable name &apos;wTermStrengthWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="822" column="15" severity="warning" message="名称 &apos;classifyAllLinesAndRecordWithID&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="822" column="54" severity="warning" message="Parameter name &apos;sInputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="822" column="70" severity="warning" message="Parameter name &apos;iTextCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="822" column="84" severity="warning" message="名称 &apos;iIDCol&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="822" column="84" severity="warning" message="Parameter name &apos;iIDCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="823" column="54" severity="warning" message="Parameter name &apos;sOutputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="825" column="9" severity="warning" message="Local variable name &apos;iCount1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="826" column="12" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="828" column="22" severity="warning" message="Local variable name &apos;rReader&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="829" column="22" severity="warning" message="Local variable name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="837" column="20" severity="warning" message="&apos;10L&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="839" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="842" column="22" severity="warning" message="应避免在子表达式中赋值。" source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="842" column="43" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="843" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="848" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="851" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="854" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="857" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="861" column="18" severity="warning" message="名称 &apos;processorForClassifyAllLinesAndRecordWithID&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="861" column="69" severity="warning" message="Parameter name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="861" column="80" severity="warning" message="Parameter name &apos;iTextCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="861" column="94" severity="warning" message="名称 &apos;iIDCol&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="861" column="94" severity="warning" message="Parameter name &apos;iIDCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="862" column="77" severity="warning" message="Parameter name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="864" column="9" severity="warning" message="Local variable name &apos;iPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="865" column="9" severity="warning" message="Local variable name &apos;iNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="866" column="14" severity="warning" message="Local variable name &apos;sData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="868" column="17" severity="warning" message="&apos;paragraph&apos; 隐藏属性。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="877" severity="warning" message="本行字符数 117个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="878" severity="warning" message="本行字符数 119个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="879" severity="warning" message="本行字符数 119个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="880" severity="warning" message="本行字符数 117个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="889" column="50" severity="warning" message="Parameter name &apos;sInputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="889" column="66" severity="warning" message="Parameter name &apos;iTextCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="890" column="12" severity="warning" message="Local variable name &apos;sTempFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="892" column="22" severity="warning" message="Local variable name &apos;rReader&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="893" column="22" severity="warning" message="Local variable name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="895" column="16" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="907" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="910" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="913" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="918" column="65" severity="warning" message="Parameter name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="918" column="76" severity="warning" message="Parameter name &apos;iTextCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="919" column="73" severity="warning" message="Parameter name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="921" column="9" severity="warning" message="Local variable name &apos;iPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="922" column="9" severity="warning" message="Local variable name &apos;iNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="923" column="14" severity="warning" message="Local variable name &apos;sData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="925" column="17" severity="warning" message="&apos;paragraph&apos; 隐藏属性。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="937" severity="warning" message="本行字符数 110个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="944" column="50" severity="warning" message="Parameter name &apos;sInputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="944" column="66" severity="warning" message="Parameter name &apos;iTextCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="944" column="83" severity="warning" message="Parameter name &apos;sOutputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="945" column="9" severity="warning" message="Local variable name &apos;iPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="946" column="9" severity="warning" message="Local variable name &apos;iNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="947" column="9" severity="warning" message="Local variable name &apos;iTrinary&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="947" column="20" severity="warning" message="&apos;-3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="948" column="9" severity="warning" message="Local variable name &apos;iScale&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="948" column="18" severity="warning" message="&apos;-10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="949" column="9" severity="warning" message="Local variable name &apos;iFileTrinary&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="949" column="24" severity="warning" message="&apos;-2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="950" column="9" severity="warning" message="Local variable name &apos;iFileScale&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="950" column="22" severity="warning" message="&apos;-9&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="951" column="9" severity="warning" message="Local variable name &apos;iClassified&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="952" column="9" severity="warning" message="Local variable name &apos;iCorrectPosCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="953" column="9" severity="warning" message="Local variable name &apos;iCorrectNegCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="954" column="9" severity="warning" message="Local variable name &apos;iCorrectTrinaryCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="955" column="9" severity="warning" message="Local variable name &apos;iCorrectScaleCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="956" column="9" severity="warning" message="Local variable name &apos;iPosAbsDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="957" column="9" severity="warning" message="Local variable name &apos;iNegAbsDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="958" column="34" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="958" column="46" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="958" column="58" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="959" column="37" severity="warning" message="&apos;20000&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="960" column="11" severity="warning" message="Local variable name &apos;iPosClassCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="961" column="11" severity="warning" message="Local variable name &apos;iNegClassCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="962" column="11" severity="warning" message="Local variable name &apos;iPosClassPred&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="963" column="11" severity="warning" message="Local variable name &apos;iNegClassPred&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="964" column="11" severity="warning" message="Local variable name &apos;iScaleClassCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="965" column="11" severity="warning" message="Local variable name &apos;iScaleClassPred&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="966" column="12" severity="warning" message="Local variable name &apos;sRationale&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="967" column="12" severity="warning" message="Local variable name &apos;sOutput&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="969" column="22" severity="warning" message="Local variable name &apos;rReader&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="970" column="22" severity="warning" message="Local variable name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="993" column="16" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="995" column="15" severity="warning" message="Local variable name &apos;iTabPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="996" column="15" severity="warning" message="Local variable name &apos;iFilePos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="997" column="15" severity="warning" message="Local variable name &apos;iFileNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="999" column="22" severity="warning" message="Local variable name &apos;sData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1001" column="30" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1003" column="17" severity="warning" message="至多3层 if，目前4层。" source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="1007" column="32" severity="warning" message="&apos;-2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1010" column="19" severity="warning" message="至多3层 if，目前4层。" source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="1010" column="58" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1011" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1011" column="84" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1015" column="71" severity="warning" message="空 catch 块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"/>
+<error line="1018" column="30" severity="warning" message="&apos;-9&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1021" column="19" severity="warning" message="至多3层 if，目前4层。" source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="1021" column="36" severity="warning" message="&apos;4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1021" column="54" severity="warning" message="&apos;-4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1022" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1022" column="82" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1026" column="72" severity="warning" message="空 catch 块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"/>
+<error line="1032" column="19" severity="warning" message="至多3层 if，目前4层。" source="com.puppycrawl.tools.checkstyle.checks.coding.NestedIfDepthCheck"/>
+<error line="1035" column="72" severity="warning" message="空 catch 块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck"/>
+<error line="1041" column="21" severity="warning" message="&apos;paragraph&apos; 隐藏属性。" source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="1065" column="32" severity="warning" message="&apos;-2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1065" column="53" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1065" column="69" severity="warning" message="&apos;-2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1065" column="86" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1073" column="30" severity="warning" message="&apos;-9&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1106" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1106" column="80" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1107" column="70" severity="warning" message="&apos;100F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1108" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1109" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1110" column="92" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1111" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1112" column="92" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1113" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1114" column="41" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1114" column="65" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1114" column="89" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1114" column="92" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1116" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1116" column="76" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1117" column="68" severity="warning" message="&apos;100F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1117" column="88" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1119" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1119" column="48" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1122" column="90" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1123" column="66" severity="warning" message="&apos;100F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1124" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1126" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1126" column="49" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1131" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1131" column="72" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1132" column="26" severity="warning" message="&apos;100&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1134" column="90" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1135" column="66" severity="warning" message="&apos;100F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1136" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1138" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1138" column="49" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1143" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1143" column="72" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1144" column="26" severity="warning" message="&apos;100&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1149" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1152" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1153" column="90" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1166" column="12" severity="warning" message="Local variable name &apos;sPosOrScale&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1173" severity="warning" message="本行字符数 135个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1173" column="135" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1174" column="88" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1175" column="78" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1176" column="92" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1177" column="92" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1185" severity="warning" message="本行字符数 121个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1190" column="66" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1191" column="70" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1192" column="66" severity="warning" message="Parameter name &apos;iReplications&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1193" column="66" severity="warning" message="Parameter name &apos;iMultiOptimisations&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1194" column="69" severity="warning" message="Parameter name &apos;sOutFileName&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1196" column="22" severity="warning" message="Local variable name &apos;wResultsWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1197" column="7" severity="warning" message="变量&apos;wTermStrengthWriter&apos;声明及第一次使用距离4行（最多：3 行）。若需要存储该变量的值，请将其声明为final的（方法调用前声明以避免副作用影响原值）。" source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<error line="1197" column="22" severity="warning" message="Local variable name &apos;wTermStrengthWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1208" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1273" column="7" severity="warning" message="变量&apos;iTemp&apos;声明及第一次使用距离5行（最多：3 行）。若需要存储该变量的值，请将其声明为final的（方法调用前声明以避免副作用影响原值）。" source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<error line="1273" column="11" severity="warning" message="Local variable name &apos;iTemp&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1281" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1352" severity="warning" message="本行字符数 109个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1353" severity="warning" message="本行字符数 136个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1354" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1358" column="49" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1358" column="74" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1359" column="49" severity="warning" message="Parameter name &apos;iMultiOptimisations&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1359" column="85" severity="warning" message="Parameter name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1360" column="60" severity="warning" message="Parameter name &apos;wTermStrengthWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1361" column="9" severity="warning" message="Local variable name &apos;iTotalSentimentWords&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1362" column="11" severity="warning" message="Local variable name &apos;iParagraphRand&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1363" column="11" severity="warning" message="Local variable name &apos;iPosClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1364" column="11" severity="warning" message="Local variable name &apos;iNegClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1365" column="11" severity="warning" message="Local variable name &apos;iTrinaryOrScaleClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1366" column="9" severity="warning" message="Local variable name &apos;iTotalClassified&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1368" column="11" severity="warning" message="Local variable name &apos;iOriginalSentimentStrengths&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1373" column="14" severity="warning" message="Local variable name &apos;iFold&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1373" column="34" severity="warning" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1411" severity="warning" message="本行字符数 124个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1412" severity="warning" message="本行字符数 124个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1413" severity="warning" message="本行字符数 132个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1414" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1417" column="57" severity="warning" message="Parameter name &apos;iPosClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1417" column="77" severity="warning" message="Parameter name &apos;iNegClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1418" column="57" severity="warning" message="Parameter name &apos;iTrinaryOrScaleClassAll&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1419" column="66" severity="warning" message="Parameter name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1420" column="9" severity="warning" message="Local variable name &apos;iPosCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1420" column="23" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1421" column="9" severity="warning" message="Local variable name &apos;iNegCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1421" column="23" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1422" column="9" severity="warning" message="Local variable name &apos;iPosWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1422" column="23" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1423" column="9" severity="warning" message="Local variable name &apos;iNegWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1423" column="23" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1424" column="9" severity="warning" message="Local variable name &apos;iTrinaryCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1424" column="27" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1425" column="9" severity="warning" message="Local variable name &apos;iTrinaryCorrectWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1425" column="34" severity="warning" message="&apos;-1&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1426" column="12" severity="warning" message="Local variable name &apos;fPosCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1426" column="36" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1427" column="12" severity="warning" message="Local variable name &apos;fNegCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1427" column="36" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1428" column="12" severity="warning" message="Local variable name &apos;fPosWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1428" column="36" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1429" column="12" severity="warning" message="Local variable name &apos;fNegWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1429" column="36" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1430" column="12" severity="warning" message="Local variable name &apos;fTrinaryCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1430" column="40" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1431" column="12" severity="warning" message="Local variable name &apos;fTrinaryCorrectWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1431" column="47" severity="warning" message="&apos;-1D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1432" column="12" severity="warning" message="Local variable name &apos;fPosOrScaleCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1432" column="30" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1433" column="12" severity="warning" message="Local variable name &apos;fNegCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1433" column="23" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1434" column="12" severity="warning" message="名称 &apos;fPosMPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1434" column="12" severity="warning" message="Local variable name &apos;fPosMPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1434" column="22" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1435" column="12" severity="warning" message="名称 &apos;fNegMPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1435" column="12" severity="warning" message="Local variable name &apos;fNegMPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1435" column="22" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1436" column="12" severity="warning" message="名称 &apos;fPosMPEnoDiv&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1436" column="12" severity="warning" message="Local variable name &apos;fPosMPEnoDiv&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1436" column="27" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1437" column="12" severity="warning" message="名称 &apos;fNegMPEnoDiv&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1437" column="12" severity="warning" message="Local variable name &apos;fNegMPEnoDiv&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1437" column="27" severity="warning" message="&apos;9999D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1438" column="32" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1438" column="44" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1438" column="56" severity="warning" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1480" column="59" severity="warning" message="Parameter name &apos;wWriter&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1480" column="72" severity="warning" message="Parameter name &apos;iPosCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1480" column="89" severity="warning" message="Parameter name &apos;iNegCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1481" column="48" severity="warning" message="Parameter name &apos;iPosWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1481" column="65" severity="warning" message="Parameter name &apos;iNegWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1481" column="82" severity="warning" message="Parameter name &apos;iTrinaryCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1482" column="48" severity="warning" message="Parameter name &apos;iTrinaryCorrectWithin1&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1482" column="79" severity="warning" message="Parameter name &apos;fPosCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1483" column="51" severity="warning" message="Parameter name &apos;fNegCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1484" column="51" severity="warning" message="Parameter name &apos;fPosWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1485" column="51" severity="warning" message="Parameter name &apos;fNegWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1486" column="51" severity="warning" message="Parameter name &apos;fTrinaryCorrectProportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1487" column="51" severity="warning" message="Parameter name &apos;fTrinaryCorrectWithin1Proportion&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1488" column="51" severity="warning" message="Parameter name &apos;fPosOrScaleCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1488" column="75" severity="warning" message="Parameter name &apos;fNegCorr&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1488" column="92" severity="warning" message="名称 &apos;fPosMPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1488" column="92" severity="warning" message="Parameter name &apos;fPosMPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1489" column="51" severity="warning" message="名称 &apos;fNegMPE&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1489" column="51" severity="warning" message="Parameter name &apos;fNegMPE&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1489" column="67" severity="warning" message="名称 &apos;fPosMPEnoDiv&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1489" column="67" severity="warning" message="Parameter name &apos;fPosMPEnoDiv&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1489" column="88" severity="warning" message="名称 &apos;fNegMPEnoDiv&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1489" column="88" severity="warning" message="Parameter name &apos;fNegMPEnoDiv&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1491" column="97" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1492" column="90" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1493" column="95" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1494" column="92" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1495" column="99" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1496" column="95" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1497" column="20" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1497" column="89" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1497" column="99" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1498" column="17" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1498" column="40" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1498" column="63" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1498" column="66" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1498" column="95" severity="warning" message="&apos;+&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1503" severity="warning" message="本行字符数 115个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1505" severity="warning" message="本行字符数 109个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1509" column="46" severity="warning" message="Parameter name &apos;iParagraphRand&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1509" column="66" severity="warning" message="Parameter name &apos;iDecile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1509" column="83" severity="warning" message="Parameter name &apos;bInvert&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1513" column="9" severity="warning" message="Local variable name &apos;iMin&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1513" column="43" severity="warning" message="&apos;10F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1514" column="9" severity="warning" message="Local variable name &apos;iMax&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1514" column="43" severity="warning" message="&apos;10F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1515" column="20" severity="warning" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1543" severity="warning" message="本行字符数 104个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1547" column="3" severity="warning" message="Return 次数 2 次（最大允許為void方法/構造函數/ 拉姆达： 1 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="1547" column="70" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1548" column="74" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1549" column="70" severity="warning" message="Parameter name &apos;iOptimisationTotal&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1557" column="9" severity="warning" message="Local variable name &apos;iTotalSentimentWords&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1558" column="11" severity="warning" message="Local variable name &apos;iOriginalSentimentStrengths&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1563" column="11" severity="warning" message="Local variable name &apos;iTotalWeight&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1582" column="75" severity="warning" message="&apos;0.5D&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1594" column="57" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1595" column="61" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1606" severity="warning" message="本行字符数 108个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1607" severity="warning" message="本行字符数 136个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1608" severity="warning" message="本行字符数 133个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1613" column="62" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1614" column="13" severity="warning" message="Local variable name &apos;bFullListChanges&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1615" column="9" severity="warning" message="Local variable name &apos;iLastScaleNumberCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1616" column="9" severity="warning" message="Local variable name &apos;iNewScaleNumberCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1617" column="9" severity="warning" message="Local variable name &apos;iTotalSentimentWords&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1618" column="11" severity="warning" message="Local variable name &apos;iWordRand&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1623" column="13" severity="warning" message="Local variable name &apos;iOldTermSentimentStrength&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1624" column="17" severity="warning" message="名称 &apos;bCurrentIDChange&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1624" column="17" severity="warning" message="Local variable name &apos;bCurrentIDChange&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1625" column="13" severity="warning" message="Local variable name &apos;iAddOneImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1626" column="13" severity="warning" message="Local variable name &apos;iSubtractOneImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1627" column="41" severity="warning" message="&apos;4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1637" column="41" severity="warning" message="&apos;-4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1659" severity="warning" message="本行字符数 114个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1660" severity="warning" message="本行字符数 129个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1661" severity="warning" message="本行字符数 172个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1665" column="72" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1666" column="13" severity="warning" message="Local variable name &apos;bFullListChanges&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1667" column="9" severity="warning" message="Local variable name &apos;iLastTrinaryCorrect&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1668" column="9" severity="warning" message="Local variable name &apos;iNewTrinary&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1669" column="9" severity="warning" message="Local variable name &apos;iTotalSentimentWords&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1670" column="11" severity="warning" message="Local variable name &apos;iWordRand&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1675" column="13" severity="warning" message="Local variable name &apos;iOldSentimentStrength&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1676" column="17" severity="warning" message="名称 &apos;bCurrentIDChange&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1676" column="17" severity="warning" message="Local variable name &apos;bCurrentIDChange&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1677" column="13" severity="warning" message="Local variable name &apos;iAddOneImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1678" column="13" severity="warning" message="Local variable name &apos;iSubtractOneImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1679" column="37" severity="warning" message="&apos;4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1689" column="37" severity="warning" message="&apos;-4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1711" severity="warning" message="本行字符数 111个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1714" severity="warning" message="本行字符数 144个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1716" column="63" severity="warning" message="Parameter name &apos;iMinImprovement&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1717" column="67" severity="warning" message="Parameter name &apos;bUseTotalDifference&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1718" column="13" severity="warning" message="Local variable name &apos;bFullListChanges&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1719" column="9" severity="warning" message="Local variable name &apos;iLastPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1720" column="9" severity="warning" message="Local variable name &apos;iLastNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1721" column="9" severity="warning" message="Local variable name &apos;iLastPosTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1722" column="9" severity="warning" message="Local variable name &apos;iLastNegTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1730" column="9" severity="warning" message="Local variable name &apos;iNewPos&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1731" column="9" severity="warning" message="Local variable name &apos;iNewNeg&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1732" column="9" severity="warning" message="Local variable name &apos;iNewPosTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1733" column="9" severity="warning" message="Local variable name &apos;iNewNegTotalDiff&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1734" column="9" severity="warning" message="Local variable name &apos;iTotalSentimentWords&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1735" column="11" severity="warning" message="Local variable name &apos;iWordRand&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1740" column="13" severity="warning" message="Local variable name &apos;iOldSentimentStrength&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1741" column="17" severity="warning" message="名称 &apos;bCurrentIDChange&apos; 中不能出现超过 &apos;1&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="1741" column="17" severity="warning" message="Local variable name &apos;bCurrentIDChange&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1742" column="37" severity="warning" message="&apos;4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1748" column="97" severity="warning" message="&apos;&lt;=&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1760" column="37" severity="warning" message="&apos;-4&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1766" column="97" severity="warning" message="&apos;&lt;=&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="1797" severity="warning" message="本行字符数 113个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1799" severity="warning" message="本行字符数 178个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="1804" column="57" severity="warning" message="Parameter name &apos;sInputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1804" column="76" severity="warning" message="Parameter name &apos;sOutputFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="1805" column="9" severity="warning" message="Local variable name &apos;iDataRows&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1805" column="21" severity="warning" message="&apos;28&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1806" column="9" severity="warning" message="Local variable name &apos;iLastOptionCol&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1806" column="26" severity="warning" message="&apos;24&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1807" column="20" severity="warning" message="Local variable name &apos;rResults&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1808" column="20" severity="warning" message="Local variable name &apos;wSummary&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1809" column="12" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1810" column="14" severity="warning" message="Local variable name &apos;sPrevData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1811" column="14" severity="warning" message="Local variable name &apos;sData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1813" column="9" severity="warning" message="Local variable name &apos;iRows&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1823" column="17" severity="warning" message="Local variable name &apos;bMatching&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="1852" column="42" severity="warning" message="&apos;9999999F&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="1871" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1874" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1875" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="1884" column="9" severity="warning" message="Local variable name &apos;iMatches&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+</file>
+</checkstyle>

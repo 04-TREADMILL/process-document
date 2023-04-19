@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.9.3">
+<file name="C:\Users\70903\Study\NJUSE\2023_Spring\SEIII\Gitlab\senti-strength\checkstyle\..\src\main\java\nju\SEIII\EASIEST\sentistrength\WordPresenceList\IronyList.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;nju.SEIII.EASIEST.SentiStrength.WordPresenceList&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="16" severity="warning" message="本行字符数 122个，最多：100个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="9" severity="warning" message="Local variable name &apos;iIronyTermCount&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="67" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="67" column="36" severity="warning" message="Parameter name &apos;sSourceFile&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="76" column="70" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="79" column="22" severity="warning" message="Local variable name &apos;rReader&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="86" column="14" severity="warning" message="Local variable name &apos;sLine&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="89" column="20" severity="warning" message="Local variable name &apos;sData&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="97" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="101" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+</checkstyle>

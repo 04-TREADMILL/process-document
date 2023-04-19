@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.9.3">
+<file name="C:\Users\70903\Study\NJUSE\2023_Spring\SEIII\Gitlab\senti-strength\checkstyle\..\src\main\java\nju\SEIII\EASIEST\sentistrength\Test.java">
+<error line="6" column="9" severity="warning" message="Package name &apos;nju.SEIII.EASIEST.SentiStrength&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="22" column="1" severity="warning" message="工具类不应有 public 或 default 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="27" column="3" severity="warning" message="未注释的Main方法。" source="com.puppycrawl.tools.checkstyle.checks.UncommentedMainCheck"/>
+<error line="27" column="3" severity="warning" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="32" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="35" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="40" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="41" column="12" severity="warning" message="不要使用Unicode转义字符。" source="com.puppycrawl.tools.checkstyle.checks.AvoidEscapedUnicodeCharactersCheck"/>
+<error line="42" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="45" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="49" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+</file>
+</checkstyle>

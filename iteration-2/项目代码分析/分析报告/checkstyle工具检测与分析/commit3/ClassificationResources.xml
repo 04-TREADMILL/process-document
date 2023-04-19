@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.9.3">
+<file name="C:\Users\70903\Study\NJUSE\2023_Spring\SEIII\Gitlab\senti-strength\checkstyle\..\src\main\java\nju\SEIII\EASIEST\sentistrength\ClassificationResources.java">
+<error line="6" column="9" severity="warning" message="Package name &apos;nju.SEIII.EASIEST.SentiStrength&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="27" severity="warning" message="多余的 &lt;p&gt; 标签。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="28" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="29" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="30" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="31" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="32" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="33" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="34" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="35" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="36" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="37" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="38" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="39" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="40" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="41" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="42" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="43" severity="warning" message="&lt;p&gt; 标签前应有空行。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="43" severity="warning" message="&lt;p&gt; 标签应在第一个字符之前，紧邻后者，之间不允许有空格。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="43" severity="warning" message="Javadoc 缩进级别错误，应为 4 个缩进符。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+<error line="50" column="27" severity="warning" message="变量 &apos;emoticons&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="55" column="27" severity="warning" message="变量 &apos;correctSpellings&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="60" column="25" severity="warning" message="变量 &apos;sentimentWords&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="65" column="27" severity="warning" message="变量 &apos;negatingWords&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="70" column="27" severity="warning" message="变量 &apos;questionWords&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="75" column="27" severity="warning" message="变量 &apos;boosterWords&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="80" column="20" severity="warning" message="变量 &apos;idiomList&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="84" column="26" severity="warning" message="变量 &apos;evaluativeTerms&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="89" column="27" severity="warning" message="变量 &apos;ironyList&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="94" column="21" severity="warning" message="变量 &apos;lemmatiser&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="98" column="17" severity="warning" message="变量 &apos;sgSentiStrengthFolder&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="103" column="17" severity="warning" message="变量 &apos;sgSentimentWordsFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="107" column="17" severity="warning" message="变量 &apos;sgSentimentWordsFile2&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="112" column="17" severity="warning" message="变量 &apos;sgEmoticonLookupTable&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="117" column="17" severity="warning" message="变量 &apos;sgCorrectSpellingFileName&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="122" column="17" severity="warning" message="变量 &apos;sgCorrectSpellingFileName2&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="127" column="17" severity="warning" message="变量 &apos;sgSlangLookupTable&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="132" column="17" severity="warning" message="变量 &apos;sgNegatingWordListFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="137" column="17" severity="warning" message="变量 &apos;sgBoosterListFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="142" column="17" severity="warning" message="变量 &apos;sgIdiomLookupTableFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="147" column="17" severity="warning" message="变量 &apos;sgQuestionWordListFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="152" column="17" severity="warning" message="变量 &apos;sgIronyWordListFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="154" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="157" column="17" severity="warning" message="变量 &apos;sgAdditionalFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="159" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="162" column="17" severity="warning" message="变量 &apos;sgLemmaFile&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="164" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="200" column="3" severity="warning" message="Return 次数 5 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+<error line="202" column="9" severity="warning" message="Local variable name &apos;iExtraLinesToReserve&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="207" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="212" column="36" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="214" severity="warning" message="当前行匹配非法表达式： &apos;System\.out\.println&apos;。" source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpCheck"/>
+<error line="226" column="86" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="227" column="97" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="229" column="35" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="230" column="91" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="231" column="91" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="232" column="84" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="233" column="85" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="238" column="7" severity="warning" message="第 7 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="238" column="7" severity="warning" message="&apos;if lcurly&apos; 缩进了6个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="241" column="7" severity="warning" message="&apos;if rcurly&apos; 缩进了6个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>

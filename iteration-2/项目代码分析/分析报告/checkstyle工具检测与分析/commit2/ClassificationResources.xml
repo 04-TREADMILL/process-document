@@ -25,7 +25,14 @@
 <error line="151" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="156" severity="warning" message="Javadoc的第一句缺少一个结束时期。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
 <error line="194" column="9" severity="warning" message="Local variable name &apos;iExtraLinesToReserve&apos; must match pattern &apos;^[a-z]([a-z0-9][a-zA-Z0-9]*)?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="204" column="36" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="218" column="86" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="219" column="97" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
 <error line="221" column="35" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="222" column="91" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="223" column="91" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="224" column="84" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="226" column="35" severity="warning" message="&apos;&amp;&amp;&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
 <error line="231" column="7" severity="warning" message="第 7 个字符 &apos;{&apos; 应位于前一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
 <error line="231" column="7" severity="warning" message="&apos;if lcurly&apos; 缩进了6个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="234" column="7" severity="warning" message="&apos;if rcurly&apos; 缩进了6个缩进符，应为8个。" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
