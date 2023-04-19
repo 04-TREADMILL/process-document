@@ -397,9 +397,9 @@ if (args[i].equalsIgnoreCase("binary")) {
 
 ## 3. Sentence
 
-### 3.1 多余if-else的重构
+### 3.1 多余 if-else 的重构
 
-在calculateSentenceSentimentScore()这一方法中，需要遍历sentence中的每一个term并根据term的类型做相应的处理，而原来代码中的判断逻辑有些复杂：
+在 calculateSentenceSentimentScore() 这一方法中，需要遍历 sentence 中的每一个 term 并根据 term 的类型做相应的处理，而原来代码中的判断逻辑有些复杂：
 
 ```java
 private void calculateSentenceSentimentScore() {
@@ -431,9 +431,9 @@ private void calculateSentenceSentimentScore() {
 }
 ```
 
-### 3.2 删去无用getClass语句
+### 3.2 删去无用 getClass 语句
 
-sentence中有三处会调用this.options.getClass()方法，但前后并没有用到，所以删除。
+sentence 中有三处会调用 this.options.getClass() 方法，但前后并没有用到，所以删除。
 
 如此处：
 
@@ -450,9 +450,9 @@ if (var10000 == 2) {
 
 ### 3.3 删除无用的变量
 
-在根据classifyingOptions中的一些布尔值进行判断的语句，使用了一些变量来存储布尔值，但实际上不需要。
+在根据 classifyingOptions 中的一些布尔值进行判断的语句，使用了一些变量来存储布尔值，但实际上不需要。
 
-如此处，var10000并不需要：
+如此处，var10000 并不需要：
 
 ```java
 var10000 = this.options.igEmotionSentenceCombineMethod;
@@ -481,7 +481,7 @@ if (this.options.igEmotionSentenceCombineMethod != 2) {
 }
 ```
 
-## 4. Word Presence List和Word Strength List的重构
+## 4. Word Presence List 和 Word Strength List 的重构
 
 Sentistrength 项目中有很多 Word List，因为 Sentistrength 需要用到许多不同类型的单词进行相应的操作，而 Word List 就是用来储存不同类型的单词的。
 
