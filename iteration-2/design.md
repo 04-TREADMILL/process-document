@@ -534,12 +534,12 @@ Booster Word List 还提供了添加 Booster Word 的方法，但由于这个方
 除了对类的修改，还在 Classification Resources 中对 Word List 的类型进行了修改：
 
 ```java
-	public WordStrengthList emoticons;
-  	public WordPresenceList correctSpellings;
-  	public WordPresenceList negatingWords;
-  	public WordPresenceList questionWords;
-  	public WordStrengthList boosterWords;
-  	public WordPresenceList ironyList;
+public WordStrengthList emoticons;
+public WordPresenceList correctSpellings;
+public WordPresenceList negatingWords;
+public WordPresenceList questionWords;
+public WordStrengthList boosterWords;
+public WordPresenceList ironyList;
 ```
 
 ## 5. 根据一些原则进行的重构
@@ -663,3 +663,6 @@ public String[] getInput() {
 ### 5.10 其他
 
 合并了一些 if 条件，去除了冗余的变量赋值，使用 standardCharSets
+
+# 重构后的架构
+![修改后架构](sentistrength.png)
