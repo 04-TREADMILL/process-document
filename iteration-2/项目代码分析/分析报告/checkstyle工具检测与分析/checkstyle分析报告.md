@@ -2,7 +2,7 @@
 
 ## 规则文档
 
-xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具体文件可见checkstyle.xml
+xml 规则文档基于 Google 规则，同时整合了部分 Alibaba 编程规范，具体文件可见 checkstyle.xml
 
 ## checkstyle 报告
 
@@ -183,7 +183,7 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 
 - 原有警告："Parameter name &apos;iExtraBlankArrayEntriesToInclude&apos; must match pattern \&apos;\^\[a-z](\[a-z0-9][a-zA-Z0-9]*)?$&apos;."
 - 修改：删除该参数
-- 警告原因：iExtraBlankArrayEntriesToInclude命名不符合规范
+- 警告原因：iExtraBlankArrayEntriesToInclude 命名不符合规范
 - 修改原因：Booster Word List 还提供了添加 Booster Word 的方法，但由于这个方法在代码中没有使用过，为了方便基类的继承，就删除了这个方法参数
 
 ### case3
@@ -192,7 +192,7 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 
 - 原有警告："CTOR_DEF”之前应该有一个空白行"
 - 修改：将该空白行删除
-- 警告原因：不符合Google_style规则
+- 警告原因：不符合 Google_style 规则
 - 修改原因：格式化代码规范
 
 ### case4
@@ -201,16 +201,16 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 
 - 原有警告："&apos;+&apos; 应另起一行。"
 - 修改：将 '+' 另起一行
-- 警告原因：不符合Google_style规则
+- 警告原因：不符合 Google_style 规则
 - 修改原因：便于观察条件判断
 
 ### case5
 
 **SentiStrength.java line="1080" column="7"**
 
-- 原有警告："变量&apos;iTrinary&apos;声明及第一次使用距离4行（最多：3 行）。若需要存储该变量的值，请将其声明为final的（方法调用前声明以避免副作用影响原值）"
+- 原有警告："变量&apos;iTrinary&apos;声明及第一次使用距离 4 行（最多：3 行）。若需要存储该变量的值，请将其声明为 final 的（方法调用前声明以避免副作用影响原值）"
 - 修改：将声明语句统一移动到代码块首部
-- 警告原因：iTrinary变量声明及第一次使用距离4行
+- 警告原因：iTrinary 变量声明及第一次使用距离 4 行
 - 修改原因：统一将声明移动到代码块首部，提高可读性
 
 ### case 6
@@ -227,8 +227,8 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 **ClassificationOptions.java line="39" column="18"**
 
 - 警告信息："变量 &apos;bgTensiStrength&apos; 应定义为 private 的，并为其创建访问方法"
-- 修改：通过getter方法获取成员变量
-- 警告原因：成员变量public
+- 修改：通过 getter 方法获取成员变量
+- 警告原因：成员变量 public
 - 原因：防止对外暴露过多资源
 
 ## 新增的警告
@@ -237,25 +237,25 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 
 `SentiStrength.java`
 
-- 警告信息：<error line="1067" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达： 3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
-- 警告原因：一个方法内部return语句过多
+- 警告信息：<error line="1067" column="3" severity="warning" message="Return 次数 4 次（最大允许非空虚方法/ 拉姆达：3 次）。" source="com.puppycrawl.tools.checkstyle.checks.coding.ReturnCountCheck"/>
+- 警告原因：一个方法内部 return 语句过多
 - 不修改
-- 此处我们对SentiStrength进行了重构，在对应的条件分支进行return操作，反而有利于代码的维护
+- 此处我们对 SentiStrength 进行了重构，在对应的条件分支进行 return 操作，反而有利于代码的维护
 
 ### 新增检查规则
 
 `BaseCorpus.java`
 
 - 警告信息：<error line="182" column="24" severity="warning" message="&apos;2&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-- 警告原因：新增的alibaba规则判定为常数
+- 警告原因：新增的 alibaba 规则判定为常数
 - 不修改
 - 原因：虽然该变量多次使用，值均不变，但是为了代码的可读性更高，我们对于这类检测为常量的变量仍做保留的处理
 
 `ClassificationOptions.java`
 
 - 警告信息：<error line="39" column="18" severity="warning" message="变量 &apos;bgTensiStrength&apos; 应定义为 private 的，并为其创建访问方法。" source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-- 警告原因：成员变量public
-- 修改：通过getter方法获取成员变量
+- 警告原因：成员变量 public
+- 修改：通过 getter 方法获取成员变量
 - 原因：防止对外暴露过多资源
 
 `ClassificationStatistics.java`
@@ -265,7 +265,7 @@ xml规则文档基于Google规则，同时整合了部分Alibaba编程规范,具
 - 修改：改变重载方法之间的位置
 - 原因：提高可读性
 
-## 基于SonarLint的部分报告对照
+## 基于 SonarLint 的部分报告对照
 
 ### 去除冗余的类型转换
 
@@ -374,45 +374,45 @@ public String[] getInput() {
 
 `for (i = 0; i < 99; ++i) { if (Objects.requireNonNull(sLabelledArffFiles)[i] == null) break; if (sLabelledArffFiles[i].equals("")) break; }`
 
-分析原因：静态分析工具忽略了条件比较与自增语句的灵活性，分析出for语句对应的作用域没有语句，就机械的认为这个循环没有意义。
+分析原因：静态分析工具忽略了条件比较与自增语句的灵活性，分析出 for 语句对应的作用域没有语句，就机械的认为这个循环没有意义。
 
 ### 2. 工具分析建议删除冗余赋值
 
 整个项目中，工具频繁的提醒有冗余的赋值，但我们人工修复时，并没有完全删除他们，因为其中一部分是有意义的。
 
-例：`sLine = file.read()`又或者`iPos = 1, iNeg = -1`。其中`sLine`那里，虽然sLine在后续会被赋值，但这一行赋值也是有副作用的，即file对象往下读了一行。后面的例子则是，冗余的赋值可以避免一些错误值的出现，也提醒开发者这里初始值是多少，并非完全没有价值。
+例：`sLine = file.read()`又或者`iPos = 1, iNeg = -1`。其中`sLine`那里，虽然 sLine 在后续会被赋值，但这一行赋值也是有副作用的，即 file 对象往下读了一行。后面的例子则是，冗余的赋值可以避免一些错误值的出现，也提醒开发者这里初始值是多少，并非完全没有价值。
 
 分析原因：分析工具对赋值是否冗余的定义太为机械，只要在后面没被使用就重新赋值，即警告冗余。但这有时候是会出问题的，有一些冗余有时也多一分容错。
 
-### 3. 工具忽略了一些if-else分支逻辑上的一致性
+### 3. 工具忽略了一些 if-else 分支逻辑上的一致性
 
-人工读代码时，遇到过`if(A)else if(A)else if(A)`的离谱代码，checkstyle却似乎并没有发现。也有类似`if(A)else{if(!A){}}`，else中的条件是不必要的，而检查工具并没有发现。
+人工读代码时，遇到过`if(A)else if(A)else if(A)`的离谱代码，checkstyle 却似乎并没有发现。也有类似`if(A)else{if(!A){}}`，else 中的条件是不必要的，而检查工具并没有发现。
 
-分析原因：可能是检测规则的缺失，比如检测条件的重复，或者没有检查嵌套if与外部条件的关系。
+分析原因：可能是检测规则的缺失，比如检测条件的重复，或者没有检查嵌套 if 与外部条件的关系。
 
 ### 4. 架构层面的不足
 
-人工检查，认为corpus使用一个类处理不同模式是不合理的，因此做出架构修改，创建模式子类。同样语料库方面，集成许多个结构类似的类，也不便于开发和修改，因此作出修改，创建接口。而分析工具不会发现这种问题。
+人工检查，认为 corpus 使用一个类处理不同模式是不合理的，因此做出架构修改，创建模式子类。同样语料库方面，集成许多个结构类似的类，也不便于开发和修改，因此作出修改，创建接口。而分析工具不会发现这种问题。
 
 分析原因：静态分析工具只能对代码风格做出警告建议，对架构方面的不合理一般无法做出合理的建议。
 
 ## 统计工具本身缺陷
 
-为了进行对照，我们同时使用了Sonarlint检测工具对代码进行报告（对应报告位于Sonarlint文件夹下）
+为了进行对照，我们同时使用了 Sonarlint 检测工具对代码进行报告（对应报告位于 Sonarlint 文件夹下）
 
-认为checkstyle工具本身具有如下的缺陷
+认为 checkstyle 工具本身具有如下的缺陷
 
 ### 局限性
 
 Checkstyle 的主要目标是检查代码的风格和结构问题，而不是语义问题。例如，Checkstyle 无法检测代码中的逻辑错误、运行时错误、并发问题、安全问题等。因此，开发者仍然需要进行其他类型的测试，例如单元测试、集成测试、性能测试等。
 
-相比之下，Sonarlint可以检测一些简单逻辑错误，和部分的语义问题，对于开发效率的提升更大
+相比之下，Sonarlint 可以检测一些简单逻辑错误，和部分的语义问题，对于开发效率的提升更大
 
 ### 检测结果的可读性差
 
 Checkstyle 的检测结果通常是一份 XML 报告，需要借助其他工具或插件才能更好地展示和分析。
 
-相比之下，Soarlint可以以Pdf和Html可视化的形式展现代码的bug，对于错误率和归因也有较好的总结
+相比之下，Soarlint 可以以 Pdf 和 Html 可视化的形式展现代码的 bug，对于错误率和归因也有较好的总结
 
 ### 误报
 
@@ -422,12 +422,12 @@ Checkstyle 可能会出现误报或漏报，导致开发者需要手动调整或
 
 ### 漏报
 
-从上述材料可以看出，checkstyle无论是相比人工，还是其他工具，会存在不同程度的漏报，这会导致开发者仍需要对代码进行仔细地debug
+从上述材料可以看出，checkstyle 无论是相比人工，还是其他工具，会存在不同程度的漏报，这会导致开发者仍需要对代码进行仔细地 debug
 
-### 仅支持Java语言
+### 仅支持 Java 语言
 
 对于其他语言不能够很好的检测
 
 ### 无法检测代码质量
 
-checkstyle只能检测代码地格式和结构，但是对于代码的质量很难给出有效的建议，因此需要人工重构才能提高代码的可读性，维护性以及可用性。
+checkstyle 只能检测代码地格式和结构，但是对于代码的质量很难给出有效的建议，因此需要人工重构才能提高代码的可读性，维护性以及可用性。

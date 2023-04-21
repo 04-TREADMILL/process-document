@@ -43,7 +43,7 @@ npm run prepare
         - `commit1.pdf`：第一次提交的代码版本对应的 sonarqube 报告
         - `commit2.pdf`：第一次提交的代码版本对应的 sonarqube 报告
         - `commit3.pdf`：第一次提交的代码版本对应的 sonarqube 报告
-    - `checkstyle.xml`：checkstyle规则文档
+    - `checkstyle.xml`：checkstyle 规则文档
 - `README.md`：说明本项目文件结构的文档。
 
 # 贡献指南
