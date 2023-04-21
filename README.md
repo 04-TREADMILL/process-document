@@ -40,7 +40,6 @@ npm run prepare
         - `commit2`：第二次提交的代码版本所在的文件夹，包含相同的 xml 文件内容
         - `commit3`:第三次提交的代码版本所在的文件夹，包含相同的 xml 文件内容
       - `sonarlint 工具检测与分析`：分析 sonarlint 工具检测和分析的文件夹
-      
         - `commit1.pdf`：第一次提交的代码版本对应的 sonarqube 报告
         - `commit2.pdf`：第一次提交的代码版本对应的 sonarqube 报告
         - `commit3.pdf`：第一次提交的代码版本对应的 sonarqube 报告
