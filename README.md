@@ -44,7 +44,10 @@ npm run prepare
         - `commit2.pdf`：第一次提交的代码版本对应的 sonarqube 报告
         - `commit3.pdf`：第一次提交的代码版本对应的 sonarqube 报告
     - `checkstyle.xml`：checkstyle 规则文档
-- `README.md`：说明本项目文件结构的文档。
+- `iteration-3`：第三轮迭代的代码和文档所在的文件夹
+  - `division.md`：第三轮迭代中小组成员分工情况的文档
+  - `meeting.md`：第三轮迭代中会议记录的文档
+- `README.md`：说明本项目文件结构的文档
 
 # 贡献指南
 
