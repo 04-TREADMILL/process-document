@@ -6,4 +6,4 @@ if ! which autocorrect >/dev/null; then
   exit 1
 fi
 
-autocorrect -V && find . -name *.md | xargs autocorrect --lint
+autocorrect -V && find . -name "*.md" | xargs autocorrect --lint
