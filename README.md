@@ -47,6 +47,9 @@ npm run prepare
 - `iteration-3`：第三轮迭代的代码和文档所在的文件夹
   - `division.md`：第三轮迭代中小组成员分工情况的文档
   - `meeting.md`：第三轮迭代中会议记录的文档
+  - `NoteOfSESSION.md`：阅读 SESSION 论文的笔记
+  - `WrongCategorizedData.txt`：分类错误的数据
+  - `AnalysisOfWrongCategorizedData.md`：对于错误分类数据的分析
 - `README.md`：说明本项目文件结构的文档
 
 # 贡献指南
@@ -62,3 +65,4 @@ npm run prepare
 
 - 在提交代码之前，请先 fork 该仓库，然后基于自己的分支进行开发
 - 在提交代码之前请编写完整的 commit message，包含修改内容、原因和影响
+- 提交前应输入：`autocorrect --fix`
