@@ -12,7 +12,7 @@
 - 论文阅读：包含了两个相关论文 SentiStrength-SE 和 SESSION 的阅读笔记
 - 其他文件：主要分析分类错误的原因
 - **optimization.md**：核心**优化说明文档**，对应的结果保存在 results 文件夹中
-- 最终结果：展示了三种算法优化方法下的运行结果，包括
+- 最终结果：展示了三种算法优化方法下的运行结果与对应的模型和日志，包括
     - openai fine-tune 准确度为 0.9079939668174962
     - tfidf embedding 配合 sklearn classifier 准确度为 0.8642533936651584
     - openai embedding 配合 sklearn classifier 准确度为 0.8378582202111614
