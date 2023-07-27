@@ -1,7 +1,3 @@
-[![pipeline status](http://172.29.4.49/0021/process-document/badges/master/pipeline.svg)](http://172.29.4.49/0021/process-document/-/commits/master)
-
-[![Latest Release](http://172.29.4.49/0021/process-document/-/badges/release.svg)](http://172.29.4.49/0021/process-document/-/releases)
-
 为了使用 Git hooks，在 clone 本仓库后请键入如下命令
 
 ```
